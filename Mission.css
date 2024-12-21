@@ -1,0 +1,1024 @@
+
+body{
+    background-color: #22427c;
+}
+
+
+.background
+{
+    height: 850px;
+    display:flex;
+    position:relative;
+    margin-top: 33px;
+    width:1341px;
+    
+}
+
+
+*{
+    margin:0x;
+    padding:0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    height:50vh;
+    width:50vw;   
+
+}
+.navbar{
+    position:absolute;
+    padding:30px;
+    display:flex;
+    justify-content: space-between;
+    width:90%;
+    box-sizing: border-box;
+    border-bottom: 10px solid rgb(234, 1, 1);
+    background-color:hsla(244, 100%, 56%, 0.987);
+    box-shadow: 1px 10px yellow;
+    height: 150px;
+    width:1349px; 
+    margin-left: -8px;
+    margin-top: -10px;
+
+
+}
+.navbar a{
+    color:white;
+    transition: 0.2s opacity ease-in;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: -125px;
+}
+
+.navbar ul li a:hover{
+
+    color:yellow;
+}
+.navbar .logo{
+    width:190px;
+    height:190px;
+    
+    margin-left: 50px;
+    margin-top: -30px;
+    filter:contrast(300%);
+    color:rgb(48, 111, 228); 
+    border-radius: 100px;
+    box-shadow: 1px 5px yellow ;
+}
+.navbar .nav-links ul{
+    display:flex;
+}
+.navbar .nav-links li{
+    margin: 15px 90px;
+
+}
+.navbar .nav-links ul li .active a{
+   color:yellow;
+   font-weight: 600;
+   
+}
+.navbar .menu-hamburger{
+    display: none;
+    position: absolute;
+   
+    top:80px;
+    right:70px;
+    width:35px;
+     margin-top: -10px;
+  
+}
+  h1{
+    font-size: 30px;
+    font-family: osvald;
+    filter: contrast(300%);
+    color:  white;
+    text-decoration:none;   
+ 
+}
+
+.box_h1{
+    background-color: #22427c;
+    width:120px;
+    height:fit-content;
+    filter: contrast(300%);
+    margin-top: 50px;
+    margin-left: 100px;
+    padding-left: 25px;
+    
+}
+h2{
+    font-size: 25px;
+    font-family: osvald;
+    filter: contrast(300%);
+    margin-top: 125px;
+    margin-left: -120px;
+    background-color: yellow;
+    width: 510px;
+    height: fit-content;
+    padding-left: 58px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:#22427c;
+    
+
+}
+.DGM_h2{
+    margin-left: -40px;
+}
+h3{
+
+    font-size: 75px;
+
+    
+
+}
+h3::before
+{
+    content: attr(data-text);
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 100px;
+    left:0;
+    width:0;
+    height:50%;
+    color:white;
+    -webkit-text-stroke: 0vh rgb(222, 208, 216);
+    border-right: 0px  solid rgb(222, 208, 216);
+    overflow: hidden;
+    animation: animate 1s linear infinite;
+   
+}
+@keyframes animate{
+    0%{
+      width:0;
+    }
+    70%{
+        width:40%;
+      }
+  }
+
+
+.fond_missions{
+    background-color: white;
+    width:800px;
+    height:350px;
+    margin-top: -500px;
+    margin-left: 285px;
+    filter: contrast(300%);
+    border-radius: 10px;
+
+}
+.fond_missions_2{
+    background-color: white;
+    width:1349px;
+    height:600px;
+    margin-top: -70px;
+    margin-left: -8px;
+    filter: contrast(300%);
+}
+.titre_para_1 p{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 20px;
+    margin-left: 50px;
+    font-weight: 800;
+
+}
+.texte_para_1 p{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 50px;
+
+    font-weight:600;
+}
+.texte p{
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
+.titre_para_2 p{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 20px;
+    margin-left: 50px;
+    font-weight: 800;
+}
+.texte_para_2 p{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 50px;
+
+    font-weight:600;
+}
+.titre_para_3 p{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 20px;
+    margin-left: 50px;
+    font-weight: 800;
+}
+.texte_para_3 p{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 50px;
+
+    font-weight:600;
+}
+
+.texte_migratoire p{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    margin-left: 10px;
+    margin-top: 70px;
+    background-color: yellow;
+    width:250px;
+    height:300px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    color: #22427c;
+    
+}
+.Mission_1{
+    margin-left: 90px;
+   
+    font-size: 40px;
+    color: #22427c;
+}
+.texte_securite p{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    margin-left: 280px;
+    margin-top: -320px;
+    background-color: yellow;
+    width:250px;
+    height:200px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    color: #22427c;
+}
+.Mission_2{
+    margin-left: 80px;
+   
+    font-size: 40px;
+    color: #22427c;
+}
+.texte_protection p{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    margin-left: 540px;
+    margin-top: -220px;
+    background-color: yellow;
+    width:250px;
+    height:200px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    color: #22427c;
+}
+.Mission_3{
+    margin-left: 80px;
+   
+    font-size: 40px;
+    color: #22427c;
+}
+.pied_de_page{
+    background-color:#22427c;
+    width:1349px;
+    height:150px;
+    margin-left: -8px;
+    padding-bottom: -100px;
+    margin-bottom: -200px;
+    
+}
+.Notre_Adresse p{
+    color:yellow;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.lieu p{
+    color:white;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.commune p{
+    color:white;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 200px;
+    margin-top: -5px;
+}
+
+.appel p{
+    color:yellow;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 650px;
+    margin-top: -120px;
+}
+
+.numero_portable p{
+    color:white;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 650px;
+    margin-top: -10px;
+}
+
+.Temps_Travail p{
+    color:yellow;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 1050px;
+    margin-top: -73px;
+}
+.Temps_ouverture p{
+    color:white;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 1000px;
+    margin-top: -10px;
+}
+@media screen and (max-width:900px){
+ 
+    h1{
+        font-size: 60px;
+        font-family: osvald;
+        filter: contrast(300%);
+        color:  white;
+        text-decoration:none;   
+     
+    }
+    
+    .box_h1{
+        background-color: #22427c;
+        width:200px;
+        height:fit-content;
+        filter: contrast(300%);
+        margin-top: -100px;
+        margin-left: 100px;
+        padding-left: 25px;
+        
+    }
+    h2{
+        font-size: 45px;
+        font-family: osvald;
+        filter: contrast(300%);
+        margin-top: 30px;
+        margin-left: -200px;
+        background-color: yellow;
+        width: 900px;
+        height: fit-content;
+        padding-left: 58px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color:#22427c;
+        
+    
+    }
+    .DGM_h2{
+        margin-left: -40px;
+    }
+    h3{
+    
+        font-size: 95px;
+    
+        
+    
+    }
+    h3::before
+    {
+        content: attr(data-text);
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 100px;
+        left:0;
+        width:0;
+        height:50%;
+        color:rgb(202, 208, 23);
+        -webkit-text-stroke: 0vh rgb(222, 208, 216);
+        border-right: 0px  solid rgb(222, 208, 216);
+        overflow: hidden;
+        animation: animate 1s linear infinite;
+       
+    }
+    @keyframes animate{
+        0%{
+          width:0;
+        }
+        70%{
+            width:40%;
+          }
+      }
+    
+
+    header{
+        height:50vh;
+        width:100vw;   
+    }
+
+    .navbar{
+        padding:0;
+        width:200%;
+     
+    }
+    .navbar a{
+        color:#22427c;
+        transition: 0.2s opacity ease-in;
+        font-size: 20px;
+        
+      
+    }
+    .navbar .logo{
+        position:absolute;
+        top:50px;
+        left:-30px;
+        width:150px;
+        height: fit-content;
+
+    }
+    .navbar .menu-hamburger{
+        display: block;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: white;
+        top:-10px;
+        left:0;
+        width:100%;
+        height:50vh;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        backdrop-filter: blur(5px);
+        margin-left: -100%;
+        transition: all 0.5s ease;   
+    }
+    .navbar{
+        position:absolute;
+        padding:30px;
+        display:flex;
+        justify-content: space-between;
+        width:90%;
+        box-sizing: border-box;
+        border-bottom: 10px solid rgb(234, 1, 1);
+        background-color:hsla(244, 100%, 56%, 0.987);
+        box-shadow: 1px 10px yellow;
+        height: 150px;
+        width: 1350px; 
+        margin-left: -8px;
+        margin-top: -10px;
+    
+    
+    }
+    .nav-links.mobile-menu{
+        margin-left: 100px;
+       
+    }
+    
+    .nav-links ul{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        filter: contrast(300%);
+        }
+        .navbar .nav-links ul li {
+            margin:  25px;
+            font-size: 1.8em;
+            }
+            .texte p{
+                font-size: 55px;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-weight: 600;
+                text-align: center;
+                padding-top: 40px;
+            }
+            .Mission_1{
+                margin-left: 90px;
+               
+                font-size: 60px;
+                color: #22427c;
+                font-weight: 600;
+            }
+
+    .texte_migratoire p{
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+         margin-left: 10px;
+        margin-top: 70px;
+        background-color: yellow;
+        width:250px;
+        height:300px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 20px;
+        color: #22427c;
+        font-weight: 400;
+        
+    }
+    .texte_securite p{
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: 400;
+        margin-left: 280px;
+        margin-top: -330px;
+        background-color: yellow;
+        width:250px;
+        height:300px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 20px;
+        color: #22427c;
+    }
+    .Mission_2{
+        margin-left: 80px;
+        font-weight: 600;
+       
+        font-size: 60px;
+        color: #22427c;
+    }
+    .texte_protection p{
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+        margin-left: 540px;
+        margin-top: -330px;
+        background-color: yellow;
+        width:250px;
+        height:300px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 20px;
+        color: #22427c;
+    }
+    .Mission_3{
+        margin-left: 80px;
+        font-weight: 600;
+        font-size: 60px;
+        color: #22427c;
+    }
+    .titre_para_1 p{
+        font-size: 50px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding-top: 40px;
+        margin-left: 50px;
+        font-weight: 800;
+    
+    }
+    .texte_para_1 p{
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-left: 50px;
+        font-weight: 300;
+    
+        font-weight:600;
+    }
+    .titre_para_2 p{
+        font-size: 50px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding-top: 40px;
+        margin-left: 50px;
+        font-weight: 800;
+    }
+    .texte_para_2 p{
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-left: 50px;
+    
+        font-weight:600;
+    }
+
+    .titre_para_3 p{
+        font-size: 50px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding-top: 40px;
+        margin-left: 50px;
+        font-weight: 800;
+    }
+    .texte_para_3 p{
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-left: 50px;
+    
+        font-weight:600;
+    }
+    .fond_missions{
+        background-color: white;
+        width:800px;
+        height:650px;
+        margin-top: -320px;
+        margin-left: 285px;
+        filter: contrast(300%);
+        border-radius: 10px;
+    
+    }
+    .fond_missions_2{
+        background-color: white;
+        width:1349px;
+        height:950px;
+        margin-top: -70px;
+        margin-left: -8px;
+        filter: contrast(300%);
+    }
+    .pied_de_page{
+        background-color:#22427c;
+        width:1349px;
+        height:250px;
+        margin-left: -8px;
+        margin-top: -25px;
+
+    }
+    .Notre_Adresse p{
+        color:yellow;
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-left: 150px;
+        margin-top: 30px;
+        padding-top: 50px;
+    }
+    
+    .lieu p{
+        color:white;
+        font-size: 25px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    
+    .commune p{
+        color:white;
+        font-size: 25px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-left: 150px;
+        margin-top: -5px;
+    }
+    
+    .appel p{
+        color:yellow;
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-left: 600px;
+        margin-top: -170px;
+    }
+    
+    .numero_portable p{
+        color:white;
+        font-size: 25px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-left: 600px;
+        margin-top: -10px;
+    }
+    
+    .Temps_Travail p{
+        color:yellow;
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-left: 980px;
+        margin-top: -110px;
+    }
+    .Temps_ouverture p{
+        color:white;
+        font-size: 25px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-left: 900px;
+        margin-top: -10px;
+    }
+}
+@media screen and (width:390px){
+    .fond_missions{
+        background-color: white;
+        width:800px;
+        height:650px;
+        margin-top: -320px;
+        margin-left: 285px;
+        filter: contrast(300%);
+        border-radius: 10px;
+    
+    }
+    .fond_missions_2{
+        background-color: white;
+        width:1349px;
+        height:950px;
+        margin-top: -70px;
+        margin-left: -8px;
+        filter: contrast(300%);
+    }
+    .pied_de_page{
+        background-color:#22427c;
+        width:1349px;
+        height:300px;
+        margin-left: -8px;
+        margin-top: -40px;
+    }
+    .Notre_Adresse p{
+        color:yellow;
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-left: 150px;
+        margin-top: 30px;
+        padding-top: 80px;
+    }
+    
+    .lieu p{
+        color:white;
+        font-size: 25px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    
+    .commune p{
+        color:white;
+        font-size: 25px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-left: 150px;
+        margin-top: -5px;
+    }
+    
+    .appel p{
+        color:yellow;
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-left: 600px;
+        margin-top: -170px;
+    }
+    
+    .numero_portable p{
+        color:white;
+        font-size: 25px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-left: 600px;
+        margin-top: -10px;
+    }
+    
+    .Temps_Travail p{
+        color:yellow;
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-left: 980px;
+        margin-top: -110px;
+    }
+    .Temps_ouverture p{
+        color:white;
+        font-size: 25px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-left: 900px;
+        margin-top: -10px;
+    }
+}
+@media screen and (width:360px){
+
+    *{
+        margin:0x;
+        padding:0px;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style: none;
+    }
+    .background
+{
+    height: 850px;
+    display:flex;
+    position:relative;
+    margin-top: 33px;
+    width:1050px;
+    
+}
+
+    header{
+        height:50vh;
+        width:50vw;   
+    
+    }
+    .navbar{
+        position:absolute;
+        padding:30px;
+        display:flex;
+        justify-content: space-between;
+        width:90%;
+        box-sizing: border-box;
+        border-bottom: 10px solid rgb(234, 1, 1);
+        background-color:hsla(244, 100%, 56%, 0.987);
+        box-shadow: 1px 10px yellow;
+        height: 150px;
+        width:1150px; 
+        margin-left: -8px;
+        margin-top: -10px;
+
+    }
+    .navbar a{
+        color:white;
+        transition: 0.2s opacity ease-in;
+        font-size: 20px;
+  
+    }
+    .texte p{
+        font-size: 55px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: 600;
+        text-align: center;
+        padding-top: 40px;
+    }
+    .Mission_1{
+        margin-left: 90px;
+       
+        font-size: 60px;
+        color: #22427c;
+        font-weight: 600;
+    }
+
+.texte_migratoire p{
+font-size: 30px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ margin-left: 10px;
+margin-top: 70px;
+background-color: yellow;
+width:250px;
+height:300px;
+padding-top: 40px;
+padding-bottom: 40px;
+padding-left: 20px;
+color: #22427c;
+font-weight: 400;
+
+}
+.texte_securite p{
+font-size: 30px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: 400;
+margin-left: 280px;
+margin-top: -330px;
+background-color: yellow;
+width:250px;
+height:300px;
+padding-top: 40px;
+padding-bottom: 40px;
+padding-left: 20px;
+color: #22427c;
+}
+.Mission_2{
+margin-left: 80px;
+font-weight: 600;
+
+font-size: 60px;
+color: #22427c;
+}
+.texte_protection p{
+font-size: 30px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+margin-left: 540px;
+margin-top: -330px;
+background-color: yellow;
+width:250px;
+height:300px;
+padding-top: 40px;
+padding-bottom: 40px;
+padding-left: 20px;
+color: #22427c;
+}
+.Mission_3{
+margin-left: 80px;
+font-weight: 600;
+font-size: 60px;
+color: #22427c;
+}
+.titre_para_1 p{
+font-size: 50px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+padding-top: 40px;
+margin-left: 50px;
+font-weight: 800;
+
+}
+.texte_para_1 p{
+font-size: 27px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+margin-left: 50px;
+font-weight: 300;
+
+font-weight:600;
+}
+.titre_para_2 p{
+font-size: 50px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+padding-top: 40px;
+margin-left: 50px;
+font-weight: 800;
+}
+.texte_para_2 p{
+font-size: 27px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+margin-left: 50px;
+
+font-weight:600;
+}
+
+.titre_para_3 p{
+font-size: 50px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+padding-top: 40px;
+margin-left: 50px;
+font-weight: 800;
+}
+.texte_para_3 p{
+font-size: 27px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+margin-left: 50px;
+
+font-weight:600;
+}
+.fond_missions{
+background-color: white;
+width:800px;
+height:650px;
+margin-top: -320px;
+margin-left: 150px;
+filter: contrast(300%);
+border-radius: 10px;
+
+}
+.fond_missions_2{
+background-color: white;
+width:1150px;
+height:950px;
+margin-top: -70px;
+margin-left: -8px;
+filter: contrast(300%);
+}
+.pied_de_page{
+background-color:#22427c;
+width:1050px;
+height:250px;
+margin-left: -8px;
+margin-top: -25px;
+
+}
+.Notre_Adresse p{
+color:yellow;
+font-size: 25px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+margin-left: 100px;
+margin-top: 30px;
+padding-top: 50px;
+}
+
+.lieu p{
+color:white;
+font-size: 20px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+margin-left: 50px;
+margin-top: 10px;
+}
+
+.commune p{
+color:white;
+font-size: 20px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+margin-left: 100px;
+margin-top: -5px;
+}
+
+.appel p{
+color:yellow;
+font-size: 25px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+margin-left: 500px;
+margin-top: -140px;
+}
+
+.numero_portable p{
+color:white;
+font-size: 20px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+margin-left: 520px;
+margin-top: -10px;
+}
+
+.Temps_Travail p{
+color:yellow;
+font-size: 25px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+margin-left: 800px;
+margin-top: -90px;
+}
+.Temps_ouverture p{
+color:white;
+font-size: 20px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+margin-left: 780px;
+margin-top: -10px;
+}
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offres_DGM</title>
+    <link rel="stylesheet" href="Offre.css">
+</head>
+<body>
+   <header>
+    <nav class="navbar">
+        <img src="logo_DGM.jpg" alt="" class="logo">
+
+        <div class="nav-links">
+            <ul>
+        <li class="active"><a href="accueil.html">Accueil</a></li>
+        <li><a href="Mission.html">Mission</a></li>
+        <li><a href="Services_DGM.html">Services</a></li>
+        <li><a href="Apropos_DGM.html"> À propos</a></li>
+        <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <img src="menu.png" alt="menu" class="menu-hamburger">
+    </nav>
+   </header>
+
+        
+    <div class="background">
+        <div class="box_h1">
+            <h1>DGM</h1>
+
+        </div>
+        <h2><span class="DGM_h2">DIRECTION GENERALE DE MIGRATION</span></h2>
+        <h3 data-text="Offres d'emplois"> </h3>
+    </div>
+
+</body>
+    <script>
+       const menuHamburger = document.querySelector(".menu-hamburger") 
+       const navLinks = document.querySelector(".nav-links") 
+
+       menuHamburger.addEventListener('click', ()=> {
+        navLinks.classList.toggle('mobile-menu')
+    
+       })
+      
+    </script>
+</html>

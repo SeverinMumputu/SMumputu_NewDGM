@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding:0;
+}
+.parent{
+    display:flex;
+}
+.enfant{
+    width: 50%;
+    height:200px;
+    background: black;
+}
+
+.enfant:nth-child(2){
+    background:red;
+}
+@media(max-width:375px){
+    .parent{
+        flex-direction: column;
+    }
+}

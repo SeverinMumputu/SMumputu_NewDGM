@@ -1,0 +1,4902 @@
+body{
+    background-color: #22427c;
+   
+}
+
+*{
+    margin:0x;
+    padding:0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    height:50vh;
+    width:50vw;   
+
+}
+.navbar{
+    position:absolute;
+    padding:30px;
+    display:flex;
+    justify-content: space-between;
+    width:90%;
+    box-sizing: border-box;
+    border-bottom: 10px solid rgb(234, 1, 1);
+    background-color:hsla(244, 100%, 56%, 0.987);
+    box-shadow: 1px 10px yellow;
+    height: 150px;
+    width:1349px; 
+    margin-left: -8px;
+    margin-top: -10px;
+
+
+}
+.navbar a{
+    color:white;
+    transition: 0.2s opacity ease-in;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: -125px;
+}
+
+.navbar ul li a:hover{
+
+    color:yellow;
+}
+.navbar .logo{
+    width:190px;
+    height:190px;
+    
+    margin-left: 50px;
+    margin-top: -30px;
+    filter:contrast(300%);
+    color:rgb(48, 111, 228); 
+    border-radius: 100px;
+    box-shadow: 1px 5px yellow ;
+}
+.navbar .nav-links ul{
+    display:flex;
+}
+.navbar .nav-links li{
+    margin: 15px 90px;
+
+}
+.navbar .nav-links ul li .active a{
+   color:yellow;
+   font-weight: 600;
+   
+}
+.navbar .menu-hamburger{
+    display: none;
+    position: absolute;
+   
+    top:80px;
+    right:70px;
+    width:35px;
+     margin-top: -10px;
+  
+}
+
+
+h1{
+    font-size: 20px;
+    font-family: osvald;
+    filter: contrast(300%);
+    color:  white;
+    text-decoration:none;   
+ 
+}
+
+.box_h1{
+    background-color: #22427c;
+    width:100px;
+    height:fit-content;
+    filter: contrast(300%);
+    margin-top: -530px;
+    margin-left: 100px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+h2{
+    font-size: 25px;
+    font-family: osvald;
+    filter: contrast(300%);
+    margin-top: 1px;
+    margin-left: 100px;
+    background-color: yellow;
+    width: 510px;
+    height: fit-content;
+    padding-left: 58px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:#22427c;
+    
+
+}
+.DGM_h2{
+    margin-left: -40px;
+}
+h3{
+
+    font-size: 75px;
+
+    
+
+}
+h3::before
+{
+    content: attr(data-text);
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 100px;
+    left:0;
+    width:0;
+    height:50%;
+    color:white;
+    -webkit-text-stroke: 0vh rgb(222, 208, 216);
+    border-right: 0px  solid rgb(222, 208, 216);
+    overflow: hidden;
+    animation: animate 1s linear infinite;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+@keyframes animate{
+    0%{
+      width:0;
+    }
+    70%{
+        width:40%;
+      }
+  }
+.adresse p{
+    font-size: 50px;
+    margin-top: 200px;
+    margin-left: 100px;
+    color:rgb(202, 208, 23);
+}
+
+.immeuble p{
+    font-size: 20px;
+    margin-top: -30px;
+    margin-left: 100px;
+    color:white;
+}
+.appel p{
+    font-size: 50px;
+    margin-top: 20px;
+    margin-left: 100px;
+    color:rgb(202, 208, 23);
+}
+
+.numero p{
+    font-size: 20px;
+    margin-top: -30px;
+    margin-left: 100px;
+    color:white;
+}
+.email p{
+    font-size: 50px;
+    margin-top: 20px;
+    margin-left: 100px;
+    color:rgb(202, 208, 23);
+}
+
+.adresse_mail p{
+    font-size: 20px;
+    margin-top: -30px;
+    margin-left: 100px;
+    color:white;
+}
+
+.fond_contact{
+    background-color: white;
+    width:549px;
+    height:550px;
+    margin-left: 700px;
+    margin-top: 80px;
+    border-radius: 10px;
+    
+}
+
+.boite_entreeNom{
+    width:310px;
+    margin:30px 0;
+    border-bottom: 1px solid black;
+    margin-left: 125px;
+
+   
+
+}
+.boite_entreePrenom{
+    width:310px;
+    margin:30px 0;
+    border-bottom: 1px solid black;
+    margin-left: 125px;
+
+}
+
+.boite_entreeNom img{
+
+    width: 40px;
+    height: 30px;
+    margin-left: 280px;
+    padding-top: -0px;
+    background-color: rgba(172, 147, 23, 0.718);
+    font-size: 1.2rem;
+    margin-top: 40px;
+    margin-bottom: -20px;
+    border-radius: 10px;
+    
+
+}
+.boite_entreePrenom img{
+
+    width: 40px;
+    height: 30px;
+    margin-left: 280px;
+    padding-top: -0px;
+    background-color: rgba(172, 147, 23, 0.718);
+    font-size: 1.2rem;
+    margin-top: 30px;
+    margin-bottom: -20px;
+    border-radius: 10px;
+    
+
+}
+
+.boite_entreeMail{
+    width:310px;
+    margin:30px 0;
+    border-bottom: 1px solid black;
+    margin-left: 125px;
+
+}
+.boite_entreeMail img{
+
+    width: 40px;
+    height: 30px;
+    margin-left: 280px;
+    padding-top: -0px;
+    background-color: rgba(172, 147, 23, 0.718);
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    border-radius: 10px;
+    
+
+}
+.boite_entreeMessage{
+    width:310px;
+    margin:30px 0;
+    border-bottom: 1px solid black;
+    margin-left: 125px;
+    margin-top: 40px;
+}
+.photo_message img{
+    width: 40px;
+    height: 30px;
+    margin-left: 405px;
+    padding-top: -0px;
+    background-color: rgba(172, 147, 23, 0.718);
+    font-size: 1.2rem;
+    margin-bottom: -20px;
+    border-radius: 10px;
+}
+.photo_message{
+    margin-top: -90px;
+}
+
+.boite_entreeNom label{
+    
+    top:50%;
+    left:5px;
+    transform:translateY(-50%);
+    color: black;
+    pointer-events:none;
+    font-size: 20px;
+    position:absolute;
+    margin-top: 150px;
+    margin-left: 825px;
+    transition: .5s;
+
+}
+
+
+.boite_entreePrenom label{
+    
+    top:50%;
+    left:5px;
+    transform:translateY(-50%);
+    color: black;
+    pointer-events:none;
+    font-size: 20px;
+    position:absolute;
+    margin-top: 280px;
+    margin-left: 825px;
+    transition: .5s;
+
+}
+
+.boite_entreeMail label{
+    
+    top:50%;
+    left:5px;
+    transform:translateY(-50%);
+    color: black;
+    pointer-events:none;
+    font-size: 20px;
+    position:absolute;
+    margin-top: 400px;
+    margin-left: 825px;
+    transition: .5s;
+
+}
+
+.boite_entreeMessage label{
+    
+    top:50%;
+    left:5px;
+    transform:translateY(-50%);
+    color: black;
+    pointer-events:none;
+    font-size: 20px;
+    position:absolute;
+    margin-top: 500px;
+    margin-left: 825px;
+    transition: .5s;
+
+}
+button{
+    width:30%;
+    height:40px;
+    background-color: rgba(172, 147, 23, 0.718);
+    border:none;
+    outline:none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 1em;
+    color:rgb(255, 255, 255);
+    font-weight: 900;
+    margin-top: 80px;
+    margin-left: 180px;
+   
+}
+
+.boite_entreeNom input{
+    width: 100%;
+    height:60px;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size: 1em;
+    padding-top: 30px;
+    color: black;
+}
+
+.boite_entreePrenom input{
+    width: 100%;
+    height:60px;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size: 1em;
+    padding-top: 30px;
+    color: black;
+}
+
+.boite_entreeMail input{
+    width: 100%;
+    height:60px;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size: 1em;
+    padding-top: 40px;
+    color: black;
+}
+.boite_entreeMessage input{
+    width: 100%;
+    height:60px;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size: 1em;
+    padding-top: 40px;
+    color: black;
+    margin-top: -20px;
+}
+
+footer{
+    background-color: white;
+    width:1349px;
+    height:100px;
+    margin-left: -8px;
+    margin-bottom: -10px;
+}
+
+@media screen  and (max-width:900px){
+
+    header{
+        height:50vh;
+        width:100vw;   
+    }
+
+    .navbar{
+        padding:0;
+        width:200%;
+     
+    }
+    .navbar a{
+        color:#22427c;
+        transition: 0.2s opacity ease-in;
+        font-size: 20px;
+        
+      
+    }
+    .navbar .logo{
+        position:absolute;
+        top:50px;
+        left:-30px;
+        width:200px;
+        height: fit-content;
+        box-shadow: 1px 15px yellow ;
+
+    }
+    .navbar .menu-hamburger{
+        display: block;
+        width:60px;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: white;
+        top:-10px;
+        left:0;
+        width:100%;
+        height:50vh;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        backdrop-filter: blur(5px);
+        margin-left: -100%;
+        transition: all 0.5s ease;   
+    }
+    .navbar{
+        position:absolute;
+        padding:30px;
+        display:flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+        border-bottom: 20px solid rgb(234, 1, 1);
+        background-color:hsla(244, 100%, 56%, 0.987);
+        box-shadow: 1px 20px yellow;
+        height: 200px;
+        width: 1350px; 
+        margin-left: -8px;
+        margin-top: -10px;
+    
+    
+    }
+    .nav-links.mobile-menu{
+        margin-left: 10px;
+       
+    }
+    
+    .nav-links ul{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        filter: contrast(300%);
+        }
+        .navbar .nav-links ul li {
+            margin:  25px;
+            font-size: 1.8em;
+            }
+
+            
+
+h1{
+    font-size: 70px;
+    font-family: osvald;
+    filter: contrast(300%);
+    color:  white;
+    text-decoration:none;   
+ 
+}
+
+.box_h1{
+    background-color: #22427c;
+    width:230px;
+    height:fit-content;
+    filter: contrast(300%);
+    margin-top: -2090px;
+    margin-left: 100px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+h2{
+    font-size: 55px;
+    font-family: osvald;
+    filter: contrast(300%);
+    margin-top: 1px;
+    margin-left: 100px;
+    background-color: yellow;
+    width: 1100px;
+    height: fit-content;
+    padding-left: 58px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color:#22427c;
+    
+
+}
+.DGM_h2{
+    margin-left: -40px;
+}
+h3{
+
+    font-size: 95px;
+
+    
+
+}
+h3::before
+{
+    content: attr(data-text);
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 100px;
+    left:0;
+    width:0;
+    height:50%;
+    color:white;
+    -webkit-text-stroke: 0vh rgb(222, 208, 216);
+    border-right: 0px  solid rgb(222, 208, 216);
+    overflow: hidden;
+    animation: animate 1s linear infinite;
+   
+}
+@keyframes animate{
+    0%{
+      width:0;
+    }
+    70%{
+        width:120%;
+      }
+  }
+
+  footer{
+    background-color: white;
+    width:1350px;
+    height:350px;
+    margin-top: 1300px;
+    margin-left: -8px;
+    margin-bottom: -10px;
+}
+
+.adresse p{
+    font-size: 55px;
+    margin-top: 300px;
+    margin-left: 100px;
+    color:rgb(202, 208, 23);
+}
+
+.immeuble p{
+    font-size: 25px;
+    margin-top: -30px;
+    margin-left: 100px;
+    color:white;
+}
+.appel p{
+    font-size: 55px;
+    margin-top: 20px;
+    margin-left: 100px;
+    color:rgb(202, 208, 23);
+}
+
+.numero p{
+    font-size: 25px;
+    margin-top: -30px;
+    margin-left: 100px;
+    color:white;
+}
+.email p{
+    font-size: 55px;
+    margin-top: 20px;
+    margin-left: 100px;
+    color:rgb(202, 208, 23);
+}
+
+.adresse_mail p{
+    font-size: 25px;
+    margin-top: -30px;
+    margin-left: 100px;
+    color:white;
+}
+
+
+.fond_contact{
+    background-color: white;
+    width:949px;
+    height:850px;
+    margin-left: 200px;
+    margin-top: 1400px;
+    border-radius: 10px;
+    
+}
+
+.boite_entreeNom{
+    width:710px;
+    margin:30px 0;
+    border-bottom: 1px solid black;
+    margin-left: 125px;
+    
+
+   
+
+}
+.boite_entreePrenom{
+    width:710px;
+    margin:30px 0;
+    border-bottom: 1px solid black;
+    margin-left: 125px;
+    margin-top: 100px;
+
+}
+
+.boite_entreeNom img{
+
+    width: 40px;
+    height: 30px;
+    margin-left: 670px;
+    padding-top: -0px;
+    background-color: rgba(172, 147, 23, 0.718);
+    font-size: 1.2rem;
+    margin-top: 40px;
+    margin-bottom: -20px;
+    border-radius: 10px;
+    
+
+}
+.boite_entreePrenom img{
+
+    width: 40px;
+    height: 30px;
+    margin-left: 670px;
+    padding-top: -0px;
+    background-color: rgba(172, 147, 23, 0.718);
+    font-size: 1.2rem;
+    margin-top: 30px;
+    margin-bottom: -20px;
+    border-radius: 10px;
+    
+
+}
+
+.boite_entreeMail{
+    width:710px;
+    margin:30px 0;
+    border-bottom: 1px solid black;
+    margin-left: 125px;
+    margin-top: 100px;
+
+}
+.boite_entreeMail img{
+
+    width: 40px;
+    height: 30px;
+    margin-left: 670px;
+    padding-top: -0px;
+    background-color: rgba(172, 147, 23, 0.718);
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    border-radius: 10px;
+    
+
+}
+.boite_entreeMessage{
+    width:710px;
+    margin:30px 0;
+    border-bottom: 1px solid black;
+    margin-left: 125px;
+    margin-top: 150px;
+}
+.photo_message img{
+    width: 40px;
+    height: 30px;
+    margin-left: 795px;
+    padding-top: -0px;
+    background-color: rgba(172, 147, 23, 0.718);
+    font-size: 1.2rem;
+    margin-bottom: -20px;
+    border-radius: 10px;
+}
+.photo_message{
+    margin-top: -90px;
+}
+
+.boite_entreeNom label{
+    
+    top:50%;
+    left:5px;
+    transform:translateY(-50%);
+    color: black;
+    pointer-events:none;
+    font-size: 30px;
+    position:absolute;
+    margin-top: 1465px;
+    margin-left: 300px;
+    transition: .5s;
+
+}
+
+
+.boite_entreePrenom label{
+    
+    top:50%;
+    left:5px;
+    transform:translateY(-50%);
+    color: black;
+    pointer-events:none;
+    font-size: 30px;
+    position:absolute;
+    margin-top: 1670px;
+    margin-left: 300px;
+    transition: .5s;
+
+}
+
+.boite_entreeMail label{
+    
+    top:50%;
+    left:5px;
+    transform:translateY(-50%);
+    color: black;
+    pointer-events:none;
+    font-size: 30px;
+    position:absolute;
+    margin-top: 1870px;
+    margin-left: 300px;
+    transition: .5s;
+
+}
+
+.boite_entreeMessage label{
+    
+    top:50%;
+    left:5px;
+    transform:translateY(-50%);
+    color: black;
+    pointer-events:none;
+    font-size: 30px;
+    position:absolute;
+    margin-top: 2060px;
+    margin-left: 300px;
+    transition: .5s;
+
+}
+button{
+    width:30%;
+    height:40px;
+    background-color: rgba(172, 147, 23, 0.718);
+    border:none;
+    outline:none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 25px;
+    color:rgb(255, 255, 255);
+    font-weight: 900;
+    margin-top: 100px;
+    margin-left: 330px;
+   
+}
+
+.boite_entreeNom input{
+    width: 100%;
+    height:60px;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size: 35px;
+    padding-top: 30px;
+    color: black;
+}
+
+.boite_entreePrenom input{
+    width: 100%;
+    height:60px;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size: 35px;
+    padding-top: 30px;
+    color: black;
+}
+
+.boite_entreeMail input{
+    width: 100%;
+    height:60px;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size: 35px;
+    padding-top: 40px;
+    color: black;
+}
+.boite_entreeMessage input{
+    width: 100%;
+    height:60px;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size: 35px;
+    padding-top: 40px;
+    color: black;
+    margin-top: -20px;
+}
+}
+
+@media screen and (width:412px){
+    
+    header{
+        height:50vh;
+        width:100vw;   
+    }
+
+    .navbar{
+        padding:0;
+        width:200%;
+     
+    }
+    .navbar a{
+        color:#22427c;
+        transition: 0.2s opacity ease-in;
+        font-size: 20px;
+        
+      
+    }
+    .navbar .logo{
+        position:absolute;
+        top:50px;
+        left:-30px;
+        width:150px;
+        height: fit-content;
+        box-shadow: 1px 5px yellow ;
+
+    }
+    .navbar .menu-hamburger{
+        display: block;
+        width:40px;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: white;
+        top:-10px;
+        left:0;
+        width:100%;
+        height:50vh;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        backdrop-filter: blur(5px);
+        margin-left: -100%;
+        transition: all 0.5s ease;   
+    }
+    .navbar{
+        position:absolute;
+        padding:30px;
+        display:flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+        border-bottom: 10px solid rgb(234, 1, 1);
+        background-color:hsla(244, 100%, 56%, 0.987);
+        box-shadow: 1px 10px yellow;
+        height: 150px;
+        width: 430px; 
+        margin-left: -8px;
+        margin-top: -10px;
+    
+    
+    }
+    .nav-links.mobile-menu{
+        margin-left: 10px;
+       
+    }
+    
+    .nav-links ul{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        filter: contrast(300%);
+        }
+        .navbar .nav-links ul li {
+            margin:  25px;
+            font-size: 1.8em;
+            }
+
+                   
+
+h1{
+    font-size: 30px;
+    font-family: osvald;
+    filter: contrast(300%);
+    color:  white;
+    text-decoration:none;   
+ 
+}
+
+.box_h1{
+    background-color: #22427c;
+    width:130px;
+    height:fit-content;
+    filter: contrast(300%);
+    margin-top: -1900px;
+    margin-left: 10px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+h2{
+    font-size: 18px;
+    font-family: osvald;
+    filter: contrast(300%);
+    margin-top: 1px;
+    margin-left: 10px;
+    background-color: yellow;
+    width: 390px;
+    height: fit-content;
+    padding-left: 58px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:#22427c;
+    
+
+}
+.DGM_h2{
+    margin-left: -40px;
+}
+h3{
+
+    font-size: 55px;
+
+    
+
+}
+h3::before
+{
+    content: attr(data-text);
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 30px;
+    left:0;
+    width:0;
+    height:50%;
+    color:white;
+    -webkit-text-stroke: 0vh rgb(222, 208, 216);
+    border-right: 0px  solid rgb(222, 208, 216);
+    overflow: hidden;
+    animation: animate 1s linear infinite;
+   
+}
+@keyframes animate{
+    0%{
+      width:0;
+    }
+    70%{
+        width:120%;
+      }
+  }
+
+    
+.adresse p{
+    font-size: 40px;
+    margin-top: 290px;
+    margin-left: 20px;
+    color:rgb(202, 208, 23);
+}
+
+.immeuble p{
+    font-size: 20px;
+    margin-top: -30px;
+    margin-left: 30px;
+    color:white;
+}
+.appel p{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color:rgb(202, 208, 23);
+}
+
+.numero p{
+    font-size: 25px;
+    margin-top: -30px;
+    margin-left: 30px;
+    color:white;
+}
+.email p{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color:rgb(202, 208, 23);
+}
+
+.adresse_mail p{
+    font-size: 20px;
+    margin-top: -30px;
+    margin-left: 30px;
+    color:white;
+}
+
+.fond_contact{
+    background-color: white;
+    width:370px;
+    height:850px;
+    margin-left: 10px;
+    margin-top: 1000px;
+    border-radius: 10px;
+    
+}
+
+.boite_entreeNom{
+    width:250px;
+    margin:30px 0;
+    border-bottom: 1px solid black;
+    margin-left: 85px;
+    
+
+   
+
+}
+.boite_entreePrenom{
+    width:250px;
+    margin:30px 0;
+    border-bottom: 1px solid black;
+    margin-left: 85px;
+    margin-top: 100px;
+
+}
+
+.boite_entreeNom img{
+
+    width: 40px;
+    height: 30px;
+    margin-left: 220px;
+    padding-top: -0px;
+    background-color: rgba(172, 147, 23, 0.718);
+    font-size: 1.2rem;
+    margin-top: 40px;
+    margin-bottom: -20px;
+    border-radius: 10px;
+    
+
+}
+.boite_entreePrenom img{
+
+    width: 40px;
+    height: 30px;
+    margin-left: 220px;
+    padding-top: -0px;
+    background-color: rgba(172, 147, 23, 0.718);
+    font-size: 1.2rem;
+    margin-top: 30px;
+    margin-bottom: -20px;
+    border-radius: 10px;
+    
+
+}
+
+.boite_entreeMail{
+    width:250px;
+    margin:30px 0;
+    border-bottom: 1px solid black;
+    margin-left: 85px;
+    margin-top: 100px;
+
+}
+.boite_entreeMail img{
+
+    width: 40px;
+    height: 30px;
+    margin-left: 220px;
+    padding-top: -0px;
+    background-color: rgba(172, 147, 23, 0.718);
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    border-radius: 10px;
+    
+
+}
+.boite_entreeMessage{
+    width:250px;
+    margin:30px 0;
+    border-bottom: 1px solid black;
+    margin-left: 85px;
+    margin-top: 150px;
+}
+.photo_message img{
+    width: 40px;
+    height: 30px;
+    margin-left: 300px;
+    padding-top: -0px;
+    background-color: rgba(172, 147, 23, 0.718);
+    font-size: 1.2rem;
+    margin-bottom: -20px;
+    border-radius: 10px;
+}
+.photo_message{
+    margin-top: -100px;
+}
+
+.boite_entreeNom label{
+    
+    top:50%;
+    left:5px;
+    transform:translateY(-50%);
+    color: black;
+    pointer-events:none;
+    font-size: 30px;
+    position:absolute;
+    margin-top: 1065px;
+    margin-left: 50px;
+    transition: .5s;
+
+}
+
+
+.boite_entreePrenom label{
+    
+    top:50%;
+    left:5px;
+    transform:translateY(-50%);
+    color: black;
+    pointer-events:none;
+    font-size: 30px;
+    position:absolute;
+    margin-top: 1270px;
+    margin-left: 50px;
+    transition: .5s;
+
+}
+
+.boite_entreeMail label{
+    
+    top:50%;
+    left:5px;
+    transform:translateY(-50%);
+    color: black;
+    pointer-events:none;
+    font-size: 30px;
+    position:absolute;
+    margin-top: 1470px;
+    margin-left: 50px;
+    transition: .5s;
+
+}
+
+.boite_entreeMessage label{
+    
+    top:50%;
+    left:5px;
+    transform:translateY(-50%);
+    color: black;
+    pointer-events:none;
+    font-size: 30px;
+    position:absolute;
+    margin-top: 1660px;
+    margin-left: 50px;
+    transition: .5s;
+
+}
+button{
+    width:30%;
+    height:40px;
+    background-color: rgba(172, 147, 23, 0.718);
+    border:none;
+    outline:none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 25px;
+    color:rgb(255, 255, 255);
+    font-weight: 900;
+    margin-top: 100px;
+    margin-left: 130px;
+   
+}
+
+.boite_entreeNom input{
+    width: 100%;
+    height:60px;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size: 25px;
+    padding-top: 30px;
+    color: black;
+}
+
+.boite_entreePrenom input{
+    width: 100%;
+    height:60px;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size:25px;
+    padding-top: 30px;
+    color: black;
+}
+
+.boite_entreeMail input{
+    width: 100%;
+    height:60px;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size: 25px;
+    padding-top: 40px;
+    color: black;
+}
+.boite_entreeMessage input{
+    width: 100%;
+    height:60px;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size: 25px;
+    padding-top: 40px;
+    color: black;
+    margin-top: -20px;
+}
+     
+footer{
+    background-color: white;
+    width:430px;
+    height:350px;
+    margin-top: 1400px;
+    margin-left: -8px;
+    margin-bottom: -10px;
+}
+}
+
+@media screen and (width:375px){
+
+    header{
+        height:50vh;
+        width:100vw;   
+    }
+
+    .navbar{
+        padding:0;
+        width:200%;
+     
+    }
+    .navbar a{
+        color:#22427c;
+        transition: 0.2s opacity ease-in;
+        font-size: 20px;
+        
+      
+    }
+    .navbar .logo{
+        position:absolute;
+        top:50px;
+        left:-30px;
+        width:150px;
+        height: fit-content;
+        box-shadow: 1px 5px yellow ;
+
+    }
+    .navbar .menu-hamburger{
+        display: block;
+        width:40px;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: white;
+        top:-10px;
+        left:0;
+        width:100%;
+        height:50vh;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        backdrop-filter: blur(5px);
+        margin-left: -100%;
+        transition: all 0.5s ease;   
+    }
+    .navbar{
+        position:absolute;
+        padding:30px;
+        display:flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+        border-bottom: 10px solid rgb(234, 1, 1);
+        background-color:hsla(244, 100%, 56%, 0.987);
+        box-shadow: 1px 10px yellow;
+        height: 150px;
+        width: 430px; 
+        margin-left: -8px;
+        margin-top: -10px;
+    
+    
+    }
+    .nav-links.mobile-menu{
+        margin-left: 10px;
+       
+    }
+    
+    .nav-links ul{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        filter: contrast(300%);
+        }
+        .navbar .nav-links ul li {
+            margin:  25px;
+            font-size: 1.8em;
+            }
+                  
+
+h1{
+    font-size: 30px;
+    font-family: osvald;
+    filter: contrast(300%);
+    color:  white;
+    text-decoration:none;   
+ 
+}
+
+.box_h1{
+    background-color: #22427c;
+    width:130px;
+    height:fit-content;
+    filter: contrast(300%);
+    margin-top: -1900px;
+    margin-left: 10px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+h2{
+    font-size: 18px;
+    font-family: osvald;
+    filter: contrast(300%);
+    margin-top: 1px;
+    margin-left: 10px;
+    background-color: yellow;
+    width: 390px;
+    height: fit-content;
+    padding-left: 58px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:#22427c;
+    
+
+}
+.DGM_h2{
+    margin-left: -40px;
+}
+h3{
+
+    font-size: 55px;
+
+    
+
+}
+h3::before
+{
+    content: attr(data-text);
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 30px;
+    left:0;
+    width:0;
+    height:50%;
+    color:white;
+    -webkit-text-stroke: 0vh rgb(222, 208, 216);
+    border-right: 0px  solid rgb(222, 208, 216);
+    overflow: hidden;
+    animation: animate 1s linear infinite;
+   
+}
+@keyframes animate{
+    0%{
+      width:0;
+    }
+    70%{
+        width:120%;
+      }
+  }
+
+    
+.adresse p{
+    font-size: 40px;
+    margin-top: 290px;
+    margin-left: 20px;
+    color:rgb(202, 208, 23);
+}
+
+.immeuble p{
+    font-size: 20px;
+    margin-top: -30px;
+    margin-left: 30px;
+    color:white;
+}
+.appel p{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color:rgb(202, 208, 23);
+}
+
+.numero p{
+    font-size: 25px;
+    margin-top: -30px;
+    margin-left: 30px;
+    color:white;
+}
+.email p{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color:rgb(202, 208, 23);
+}
+
+.adresse_mail p{
+    font-size: 20px;
+    margin-top: -30px;
+    margin-left: 30px;
+    color:white;
+}
+
+.fond_contact{
+    background-color: white;
+    width:370px;
+    height:850px;
+    margin-left: 10px;
+    margin-top: 1000px;
+    border-radius: 10px;
+    
+}
+
+.boite_entreeNom{
+    width:250px;
+    margin:30px 0;
+    border-bottom: 1px solid black;
+    margin-left: 85px;
+    
+
+   
+
+}
+.boite_entreePrenom{
+    width:250px;
+    margin:30px 0;
+    border-bottom: 1px solid black;
+    margin-left: 85px;
+    margin-top: 100px;
+
+}
+
+.boite_entreeNom img{
+
+    width: 40px;
+    height: 30px;
+    margin-left: 220px;
+    padding-top: -0px;
+    background-color: rgba(172, 147, 23, 0.718);
+    font-size: 1.2rem;
+    margin-top: 40px;
+    margin-bottom: -20px;
+    border-radius: 10px;
+    
+
+}
+.boite_entreePrenom img{
+
+    width: 40px;
+    height: 30px;
+    margin-left: 220px;
+    padding-top: -0px;
+    background-color: rgba(172, 147, 23, 0.718);
+    font-size: 1.2rem;
+    margin-top: 30px;
+    margin-bottom: -20px;
+    border-radius: 10px;
+    
+
+}
+
+.boite_entreeMail{
+    width:250px;
+    margin:30px 0;
+    border-bottom: 1px solid black;
+    margin-left: 85px;
+    margin-top: 100px;
+
+}
+.boite_entreeMail img{
+
+    width: 40px;
+    height: 30px;
+    margin-left: 220px;
+    padding-top: -0px;
+    background-color: rgba(172, 147, 23, 0.718);
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    border-radius: 10px;
+    
+
+}
+.boite_entreeMessage{
+    width:250px;
+    margin:30px 0;
+    border-bottom: 1px solid black;
+    margin-left: 85px;
+    margin-top: 150px;
+}
+.photo_message img{
+    width: 40px;
+    height: 30px;
+    margin-left: 300px;
+    padding-top: -0px;
+    background-color: rgba(172, 147, 23, 0.718);
+    font-size: 1.2rem;
+    margin-bottom: -20px;
+    border-radius: 10px;
+}
+.photo_message{
+    margin-top: -100px;
+}
+
+.boite_entreeNom label{
+    
+    top:50%;
+    left:5px;
+    transform:translateY(-50%);
+    color: black;
+    pointer-events:none;
+    font-size: 30px;
+    position:absolute;
+    margin-top: 1065px;
+    margin-left: 50px;
+    transition: .5s;
+
+}
+
+
+.boite_entreePrenom label{
+    
+    top:50%;
+    left:5px;
+    transform:translateY(-50%);
+    color: black;
+    pointer-events:none;
+    font-size: 30px;
+    position:absolute;
+    margin-top: 1270px;
+    margin-left: 50px;
+    transition: .5s;
+
+}
+
+.boite_entreeMail label{
+    
+    top:50%;
+    left:5px;
+    transform:translateY(-50%);
+    color: black;
+    pointer-events:none;
+    font-size: 30px;
+    position:absolute;
+    margin-top: 1470px;
+    margin-left: 50px;
+    transition: .5s;
+
+}
+
+.boite_entreeMessage label{
+    
+    top:50%;
+    left:5px;
+    transform:translateY(-50%);
+    color: black;
+    pointer-events:none;
+    font-size: 30px;
+    position:absolute;
+    margin-top: 1660px;
+    margin-left: 50px;
+    transition: .5s;
+
+}
+button{
+    width:30%;
+    height:40px;
+    background-color: rgba(172, 147, 23, 0.718);
+    border:none;
+    outline:none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 25px;
+    color:rgb(255, 255, 255);
+    font-weight: 900;
+    margin-top: 100px;
+    margin-left: 130px;
+   
+}
+
+.boite_entreeNom input{
+    width: 100%;
+    height:60px;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size: 25px;
+    padding-top: 30px;
+    color: black;
+}
+
+.boite_entreePrenom input{
+    width: 100%;
+    height:60px;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size:25px;
+    padding-top: 30px;
+    color: black;
+}
+
+.boite_entreeMail input{
+    width: 100%;
+    height:60px;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size: 25px;
+    padding-top: 40px;
+    color: black;
+}
+.boite_entreeMessage input{
+    width: 100%;
+    height:60px;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size: 25px;
+    padding-top: 40px;
+    color: black;
+    margin-top: -20px;
+}
+     
+footer{
+    background-color: white;
+    width:430px;
+    height:350px;
+    margin-top: 1400px;
+    margin-left: -8px;
+    margin-bottom: -10px;
+}
+}
+
+@media screen and  (width:360px){
+    
+    header{
+        height:50vh;
+        width:100vw;   
+    }
+
+    .navbar{
+        padding:0;
+        width:200%;
+     
+    }
+    .navbar a{
+        color:#22427c;
+        transition: 0.2s opacity ease-in;
+        font-size: 20px;
+        
+      
+    }
+    .navbar .logo{
+        position:absolute;
+        top:50px;
+        left:-30px;
+        width:150px;
+        height: fit-content;
+        box-shadow: 1px 5px yellow ;
+
+    }
+    .navbar .menu-hamburger{
+        display: block;
+        width:40px;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: white;
+        top:20px;
+        left:0;
+        width:100%;
+        height:50vh;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        backdrop-filter: blur(5px);
+        margin-left: -100%;
+        transition: all 0.5s ease;   
+    }
+    .navbar{
+        position:absolute;
+        padding:30px;
+        display:flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+        border-bottom: 10px solid rgb(234, 1, 1);
+        background-color:hsla(244, 100%, 56%, 0.987);
+        box-shadow: 1px 10px yellow;
+        height: 150px;
+        width: 400px; 
+        margin-left: -8px;
+        margin-top: -10px;
+    
+    
+    }
+    .nav-links.mobile-menu{
+        margin-left: 10px;
+       
+    }
+    
+    .nav-links ul{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        filter: contrast(300%);
+        }
+        .navbar .nav-links ul li {
+            margin:  25px;
+            font-size: 1.8em;
+            }
+
+    
+h1{
+    font-size: 25px;
+    font-family: osvald;
+    filter: contrast(300%);
+    color:  white;
+    text-decoration:none;   
+ 
+}
+
+.box_h1{
+    background-color: #22427c;
+    width:110px;
+    height:fit-content;
+    filter: contrast(300%);
+    margin-top: -1900px;
+    margin-left: 10px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+h2{
+    font-size: 16px;
+    font-family: osvald;
+    filter: contrast(300%);
+    margin-top: 1px;
+    margin-left: 10px;
+    background-color: yellow;
+    width: 340px;
+    height: fit-content;
+    padding-left: 58px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:#22427c;
+    
+
+}
+.DGM_h2{
+    margin-left: -40px;
+}
+h3{
+
+    font-size: 55px;
+
+    
+
+}
+h3::before
+{
+    content: attr(data-text);
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 30px;
+    left:0;
+    width:0;
+    height:50%;
+    color:white;
+    -webkit-text-stroke: 0vh rgb(222, 208, 216);
+    border-right: 0px  solid rgb(222, 208, 216);
+    overflow: hidden;
+    animation: animate 1s linear infinite;
+   
+}
+@keyframes animate{
+    0%{
+      width:0;
+    }
+    70%{
+        width:120%;
+      }
+  }
+
+    
+.adresse p{
+    font-size: 40px;
+    margin-top: 290px;
+    margin-left: 20px;
+    color:rgb(202, 208, 23);
+}
+
+.immeuble p{
+    font-size: 20px;
+    margin-top: -30px;
+    margin-left: 30px;
+    color:white;
+}
+.appel p{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color:rgb(202, 208, 23);
+}
+
+.numero p{
+    font-size: 25px;
+    margin-top: -30px;
+    margin-left: 30px;
+    color:white;
+}
+.email p{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color:rgb(202, 208, 23);
+}
+
+.adresse_mail p{
+    font-size: 20px;
+    margin-top: -30px;
+    margin-left: 30px;
+    color:white;
+}
+
+.fond_contact{
+    background-color: white;
+    width:330px;
+    height:850px;
+    margin-left: 10px;
+    margin-top: 1000px;
+    border-radius: 10px;
+    
+}
+
+.boite_entreeNom{
+    width:250px;
+    margin:30px 0;
+    border-bottom: 1px solid black;
+    margin-left: 65px;
+    
+
+   
+
+}
+.boite_entreePrenom{
+    width:250px;
+    margin:30px 0;
+    border-bottom: 1px solid black;
+    margin-left: 65px;
+    margin-top: 100px;
+
+}
+
+.boite_entreeNom img{
+
+    width: 40px;
+    height: 30px;
+    margin-left: 220px;
+    padding-top: -0px;
+    background-color: rgba(172, 147, 23, 0.718);
+    font-size: 1.2rem;
+    margin-top: 40px;
+    margin-bottom: -20px;
+    border-radius: 10px;
+    
+
+}
+.boite_entreePrenom img{
+
+    width: 40px;
+    height: 30px;
+    margin-left: 220px;
+    padding-top: -0px;
+    background-color: rgba(172, 147, 23, 0.718);
+    font-size: 1.2rem;
+    margin-top: 30px;
+    margin-bottom: -20px;
+    border-radius: 10px;
+    
+
+}
+
+.boite_entreeMail{
+    width:250px;
+    margin:30px 0;
+    border-bottom: 1px solid black;
+    margin-left: 65px;
+    margin-top: 100px;
+
+}
+.boite_entreeMail img{
+
+    width: 40px;
+    height: 30px;
+    margin-left: 220px;
+    padding-top: -0px;
+    background-color: rgba(172, 147, 23, 0.718);
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    border-radius: 10px;
+    
+
+}
+.boite_entreeMessage{
+    width:250px;
+    margin:30px 0;
+    border-bottom: 1px solid black;
+    margin-left: 65px;
+    margin-top: 150px;
+}
+.photo_message img{
+    width: 40px;
+    height: 30px;
+    margin-left: 285px;
+    padding-top: -0px;
+    background-color: rgba(172, 147, 23, 0.718);
+    font-size: 1.2rem;
+    margin-bottom: -20px;
+    border-radius: 10px;
+}
+.photo_message{
+    margin-top: -100px;
+}
+
+.boite_entreeNom label{
+    
+    top:50%;
+    left:5px;
+    transform:translateY(-50%);
+    color: black;
+    pointer-events:none;
+    font-size: 30px;
+    position:absolute;
+    margin-top: 1065px;
+    margin-left: 50px;
+    transition: .5s;
+
+}
+
+
+.boite_entreePrenom label{
+    
+    top:50%;
+    left:5px;
+    transform:translateY(-50%);
+    color: black;
+    pointer-events:none;
+    font-size: 30px;
+    position:absolute;
+    margin-top: 1270px;
+    margin-left: 50px;
+    transition: .5s;
+
+}
+
+.boite_entreeMail label{
+    
+    top:50%;
+    left:5px;
+    transform:translateY(-50%);
+    color: black;
+    pointer-events:none;
+    font-size: 30px;
+    position:absolute;
+    margin-top: 1470px;
+    margin-left: 50px;
+    transition: .5s;
+
+}
+
+.boite_entreeMessage label{
+    
+    top:50%;
+    left:5px;
+    transform:translateY(-50%);
+    color: black;
+    pointer-events:none;
+    font-size: 30px;
+    position:absolute;
+    margin-top: 1660px;
+    margin-left: 50px;
+    transition: .5s;
+
+}
+button{
+    width:30%;
+    height:40px;
+    background-color: rgba(172, 147, 23, 0.718);
+    border:none;
+    outline:none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 25px;
+    color:rgb(255, 255, 255);
+    font-weight: 900;
+    margin-top: 100px;
+    margin-left: 130px;
+   
+}
+
+.boite_entreeNom input{
+    width: 100%;
+    height:60px;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size: 25px;
+    padding-top: 30px;
+    color: black;
+}
+
+.boite_entreePrenom input{
+    width: 100%;
+    height:60px;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size:25px;
+    padding-top: 30px;
+    color: black;
+}
+
+.boite_entreeMail input{
+    width: 100%;
+    height:60px;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size: 25px;
+    padding-top: 40px;
+    color: black;
+}
+.boite_entreeMessage input{
+    width: 100%;
+    height:60px;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size: 25px;
+    padding-top: 40px;
+    color: black;
+    margin-top: -20px;
+}
+     
+footer{
+    background-color: white;
+    width:430px;
+    height:350px;
+    margin-top: 1400px;
+    margin-left: -8px;
+    margin-bottom: -10px;
+}
+}
+
+@media screen and (width:853px){
+    
+    header{
+        height:50vh;
+        width:100vw;   
+    }
+
+    .navbar{
+        padding:0;
+        width:200%;
+     
+    }
+    .navbar a{
+        color:#22427c;
+        transition: 0.2s opacity ease-in;
+        font-size: 30px;
+        
+      
+    }
+    .navbar .logo{
+        position:absolute;
+        top:50px;
+        left:-30px;
+        width:200px;
+        height: fit-content;
+        box-shadow: 1px 5px yellow ;
+
+    }
+    .navbar .menu-hamburger{
+        display: block;
+        width:60px;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: white;
+        top:-10px;
+        left:0;
+        width:100%;
+        height:50vh;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        backdrop-filter: blur(5px);
+        margin-left: -100%;
+        transition: all 0.5s ease;   
+    }
+    .navbar{
+        position:absolute;
+        padding:30px;
+        display:flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+        border-bottom: 10px solid rgb(234, 1, 1);
+        background-color:hsla(244, 100%, 56%, 0.987);
+        box-shadow: 1px 10px yellow;
+        height: 200px;
+        width: 840px; 
+        margin-left: -8px;
+        margin-top: -10px;
+    
+    
+    }
+    .nav-links.mobile-menu{
+        margin-left: 10px;
+       
+    }
+    
+    .nav-links ul{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        filter: contrast(300%);
+        }
+        .navbar .nav-links ul li {
+            margin:  25px;
+            font-size: 1.8em;
+            }
+
+            
+h1{
+    font-size: 30px;
+    font-family: osvald;
+    filter: contrast(300%);
+    color:  white;
+    text-decoration:none;   
+ 
+}
+
+.box_h1{
+    background-color: #22427c;
+    width: 130px;
+    height:fit-content;
+    filter: contrast(300%);
+    margin-top: -1890px;
+    margin-left: 100px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+h2{
+    font-size: 35px;
+    font-family: osvald;
+    filter: contrast(300%);
+    margin-top: 1px;
+    margin-left: 100px;
+    background-color: yellow;
+    width: 710px;
+    height: fit-content;
+    padding-left: 58px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color:#22427c;
+    
+
+}
+.DGM_h2{
+    margin-left: -40px;
+}
+h3{
+
+    font-size: 75px;
+
+    
+
+}
+h3::before
+{
+    content: attr(data-text);
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 100px;
+    left:0;
+    width:0;
+    height:50%;
+    color:white;
+    -webkit-text-stroke: 0vh rgb(222, 208, 216);
+    border-right: 0px  solid rgb(222, 208, 216);
+    overflow: hidden;
+    animation: animate 1s linear infinite;
+   
+}
+@keyframes animate{
+    0%{
+      width:0;
+    }
+    70%{
+        width:120%;
+      }
+  }
+
+  
+.adresse p{
+    font-size: 55px;
+    margin-top: 300px;
+    margin-left: 100px;
+    color:rgb(202, 208, 23);
+}
+
+.immeuble p{
+    font-size: 30px;
+    margin-top: -30px;
+    margin-left: 100px;
+    color:white;
+}
+.appel p{
+    font-size: 55px;
+    margin-top: 20px;
+    margin-left: 100px;
+    color:rgb(202, 208, 23);
+}
+
+.numero p{
+    font-size: 30px;
+    margin-top: -30px;
+    margin-left: 100px;
+    color:white;
+}
+.email p{
+    font-size: 55px;
+    margin-top: 20px;
+    margin-left: 100px;
+    color:rgb(202, 208, 23);
+}
+
+.adresse_mail p{
+    font-size: 30px;
+    margin-top: -30px;
+    margin-left: 100px;
+    color:white;
+}
+
+    
+.fond_contact{
+    background-color: white;
+    width:790px;
+    height:850px;
+    margin-left: 20px;
+    margin-top: 1000px;
+    border-radius: 10px;
+    
+}
+
+.boite_entreeNom{
+    width:580px;
+    margin:30px 0;
+    border-bottom: 1px solid black;
+    margin-left: 125px;
+    
+
+   
+
+}
+.boite_entreePrenom{
+    width:580px;
+    margin:30px 0;
+    border-bottom: 1px solid black;
+    margin-left: 125px;
+    margin-top: 100px;
+
+}
+
+.boite_entreeNom img{
+
+    width: 70px;
+    height: 60px;
+    margin-left: 570px;
+    padding-top: -0px;
+    background-color: rgba(172, 147, 23, 0.718);
+    font-size: 1.2rem;
+    margin-top: 40px;
+    margin-bottom: -20px;
+    border-radius: 10px;
+    
+
+}
+.boite_entreePrenom img{
+
+    width: 70px;
+    height: 60px;
+    margin-left: 570px;
+    padding-top: -0px;
+    background-color: rgba(172, 147, 23, 0.718);
+    font-size: 1.2rem;
+    margin-top: 30px;
+    margin-bottom: -20px;
+    border-radius: 10px;
+    
+
+}
+
+.boite_entreeMail{
+    width:580px;
+    margin:30px 0;
+    border-bottom: 1px solid black;
+    margin-left: 125px;
+    margin-top: 100px;
+
+}
+.boite_entreeMail img{
+
+    width: 70px;
+    height: 60px;
+    margin-left: 570px;
+    padding-top: -0px;
+    background-color: rgba(172, 147, 23, 0.718);
+    font-size: 1.2rem;
+    margin-top: -40px;
+    margin-bottom: -20px;
+    border-radius: 10px;
+    
+
+}
+.boite_entreeMessage{
+    width:580px;
+    margin:30px 0;
+    border-bottom: 1px solid black;
+    margin-left: 125px;
+    margin-top: 150px;
+}
+.photo_message img{
+    width: 70px;
+    height: 60px;
+    margin-left: 700px;
+    padding-top: -0px;
+    background-color: rgba(172, 147, 23, 0.718);
+    font-size: 1.2rem;
+    margin-bottom: -20px;
+    border-radius: 10px;
+}
+.photo_message{
+    margin-top: -140px;
+}
+
+.boite_entreeNom label{
+    
+    top:50%;
+    left:5px;
+    transform:translateY(-50%);
+    color: black;
+    pointer-events:none;
+    font-size: 35px;
+    position:absolute;
+    margin-top: 1065px;
+    margin-left: 100px;
+    transition: .5s;
+
+}
+
+
+.boite_entreePrenom label{
+    
+    top:50%;
+    left:5px;
+    transform:translateY(-50%);
+    color: black;
+    pointer-events:none;
+    font-size: 35px;
+    position:absolute;
+    margin-top: 1270px;
+    margin-left: 100px;
+    transition: .5s;
+
+}
+
+.boite_entreeMail label{
+    
+    top:50%;
+    left:5px;
+    transform:translateY(-50%);
+    color: black;
+    pointer-events:none;
+    font-size: 35px;
+    position:absolute;
+    margin-top: 1470px;
+    margin-left: 100px;
+    transition: .5s;
+
+}
+
+.boite_entreeMessage label{
+    
+    top:50%;
+    left:5px;
+    transform:translateY(-50%);
+    color: black;
+    pointer-events:none;
+    font-size: 35px;
+    position:absolute;
+    margin-top: 1620px;
+    margin-left: 100px;
+    transition: .5s;
+
+}
+button{
+    width:50%;
+    height:50px;
+    background-color: rgba(172, 147, 23, 0.718);
+    border:none;
+    outline:none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 35px;
+    color:rgb(255, 255, 255);
+    font-weight: 900;
+    margin-top: 100px;
+    margin-left: 210px;
+   
+}
+
+.boite_entreeNom input{
+    width: 100%;
+    height:60px;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size: 35px;
+    padding-top: 30px;
+    color: black;
+}
+
+.boite_entreePrenom input{
+    width: 100%;
+    height:60px;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size: 35px;
+    padding-top: 30px;
+    color: black;
+}
+
+.boite_entreeMail input{
+    width: 100%;
+    height:70px;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size: 35px;
+    padding-top: 40px;
+    color: black;
+    margin-top: -20px;
+}
+.boite_entreeMessage input{
+    width: 100%;
+    height:70px;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size: 35px;
+    padding-top: 40px;
+    color: black;
+    margin-top: -110px;
+}
+}
+@media screen and (width:280px){
+    header{
+        height:50vh;
+        width:100vw;   
+    }
+
+    .navbar{
+        padding:0;
+        width:200%;
+     
+    }
+    .navbar a{
+        color:#22427c;
+        transition: 0.2s opacity ease-in;
+        font-size: 16px;
+        
+      
+    }
+    .navbar .logo{
+        position:absolute;
+        top:50px;
+        left:-30px;
+        width:140px;
+        height: fit-content;
+        box-shadow: 1px 5px yellow ;
+
+    }
+    .navbar .menu-hamburger{
+        display: block;
+        width:30px;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: white;
+        top:20px;
+        left:0;
+        width:100%;
+        height:60vh;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        backdrop-filter: blur(5px);
+        margin-left: -100%;
+        transition: all 0.5s ease;   
+    }
+    .navbar{
+        position:absolute;
+        padding:30px;
+        display:flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+        border-bottom: 5px solid rgb(234, 1, 1);
+        background-color:hsla(244, 100%, 56%, 0.987);
+        box-shadow: 1px 5px yellow;
+        height: 150px;
+        width: 320px; 
+        margin-left: -8px;
+        margin-top: -10px;
+    
+    
+    }
+    .nav-links.mobile-menu{
+        margin-left: 10px;
+       
+    }
+    
+    .nav-links ul{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        filter: contrast(300%);
+        }
+        .navbar .nav-links ul li {
+            margin:  10px;
+            font-size: 1.8em;
+            }
+
+             
+h1{
+    font-size: 25px;
+    font-family: osvald;
+    filter: contrast(300%);
+    color:  white;
+    text-decoration:none;   
+ 
+}
+
+.box_h1{
+    background-color: #22427c;
+    width:110px;
+    height:fit-content;
+    filter: contrast(300%);
+    margin-top: -1900px;
+    margin-left: 5px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+h2{
+    font-size: 12px;
+    font-family: osvald;
+    filter: contrast(300%);
+    margin-top: 1px;
+    margin-left: 5px;
+    background-color: yellow;
+    width: 270px;
+    height: fit-content;
+    padding-left: 58px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:#22427c;
+    font-weight: 900;
+    
+
+}
+.DGM_h2{
+    margin-left: -40px;
+}
+h3{
+
+    font-size: 55px;
+
+    
+
+}
+h3::before
+{
+    content: attr(data-text);
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 30px;
+    left:0;
+    width:0;
+    height:50%;
+    color:white;
+    -webkit-text-stroke: 0vh rgb(222, 208, 216);
+    border-right: 0px  solid rgb(222, 208, 216);
+    overflow: hidden;
+    animation: animate 1s linear infinite;
+   
+}
+@keyframes animate{
+    0%{
+      width:0;
+    }
+    70%{
+        width:120%;
+      }
+  }
+
+
+    
+  .adresse p{
+    font-size: 40px;
+    margin-top: 290px;
+    margin-left: 20px;
+    color:rgb(202, 208, 23);
+}
+
+.immeuble p{
+    font-size: 20px;
+    margin-top: -30px;
+    margin-left: 30px;
+    color:white;
+}
+.appel p{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color:rgb(202, 208, 23);
+}
+
+.numero p{
+    font-size: 25px;
+    margin-top: -30px;
+    margin-left: 30px;
+    color:white;
+}
+.email p{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color:rgb(202, 208, 23);
+}
+
+.adresse_mail p{
+    font-size: 20px;
+    margin-top: -30px;
+    margin-left: 30px;
+    color:white;
+}
+
+.fond_contact{
+    background-color: white;
+    width:250px;
+    height:850px;
+    margin-left: 10px;
+    margin-top: 1000px;
+    border-radius: 10px;
+    
+}
+
+.boite_entreeNom{
+    width:150px;
+    margin:30px 0;
+    border-bottom: 1px solid black;
+    margin-left: 65px;
+    
+
+   
+
+}
+.boite_entreePrenom{
+    width:150px;
+    margin:30px 0;
+    border-bottom: 1px solid black;
+    margin-left: 65px;
+    margin-top: 100px;
+
+}
+
+.boite_entreeNom img{
+
+    width: 40px;
+    height: 30px;
+    margin-left: 120px;
+    padding-top: -0px;
+    background-color: rgba(172, 147, 23, 0.718);
+    font-size: 1.2rem;
+    margin-top: 40px;
+    margin-bottom: -20px;
+    border-radius: 10px;
+    
+
+}
+.boite_entreePrenom img{
+
+    width: 40px;
+    height: 30px;
+    margin-left: 120px;
+    padding-top: -0px;
+    background-color: rgba(172, 147, 23, 0.718);
+    font-size: 1.2rem;
+    margin-top: 30px;
+    margin-bottom: -20px;
+    border-radius: 10px;
+    
+
+}
+
+.boite_entreeMail{
+    width:150px;
+    margin:30px 0;
+    border-bottom: 1px solid black;
+    margin-left: 65px;
+    margin-top: 100px;
+
+}
+.boite_entreeMail img{
+
+    width: 40px;
+    height: 30px;
+    margin-left: 120px;
+    padding-top: -0px;
+    background-color: rgba(172, 147, 23, 0.718);
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    border-radius: 10px;
+    
+
+}
+.boite_entreeMessage{
+    width:150px;
+    margin:30px 0;
+    border-bottom: 1px solid black;
+    margin-left: 65px;
+    margin-top: 150px;
+}
+.photo_message img{
+    width: 40px;
+    height: 30px;
+    margin-left: 185px;
+    padding-top: -0px;
+    background-color: rgba(172, 147, 23, 0.718);
+    font-size: 1.2rem;
+    margin-bottom: -20px;
+    border-radius: 10px;
+}
+.photo_message{
+    margin-top: -100px;
+}
+
+.boite_entreeNom label{
+    
+    top:50%;
+    left:5px;
+    transform:translateY(-50%);
+    color: black;
+    pointer-events:none;
+    font-size: 30px;
+    position:absolute;
+    margin-top: 1065px;
+    margin-left: 50px;
+    transition: .5s;
+
+}
+
+
+.boite_entreePrenom label{
+    
+    top:50%;
+    left:5px;
+    transform:translateY(-50%);
+    color: black;
+    pointer-events:none;
+    font-size: 30px;
+    position:absolute;
+    margin-top: 1270px;
+    margin-left: 50px;
+    transition: .5s;
+
+}
+
+.boite_entreeMail label{
+    
+    top:50%;
+    left:5px;
+    transform:translateY(-50%);
+    color: black;
+    pointer-events:none;
+    font-size: 30px;
+    position:absolute;
+    margin-top: 1470px;
+    margin-left: 50px;
+    transition: .5s;
+
+}
+
+.boite_entreeMessage label{
+    
+    top:50%;
+    left:5px;
+    transform:translateY(-50%);
+    color: black;
+    pointer-events:none;
+    font-size: 20px;
+    position:absolute;
+    margin-top: 1660px;
+    margin-left: 50px;
+    transition: .5s;
+    font-weight: 900;
+
+}
+button{
+    width:50%;
+    height:40px;
+    background-color: rgba(172, 147, 23, 0.718);
+    border:none;
+    outline:none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 25px;
+    color:rgb(255, 255, 255);
+    font-weight: 900;
+    margin-top: 100px;
+    margin-left: 70px;
+   
+}
+
+.boite_entreeNom input{
+    width: 100%;
+    height:60px;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size: 25px;
+    padding-top: 30px;
+    color: black;
+}
+
+.boite_entreePrenom input{
+    width: 100%;
+    height:60px;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size:25px;
+    padding-top: 30px;
+    color: black;
+}
+
+.boite_entreeMail input{
+    width: 100%;
+    height:60px;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size: 25px;
+    padding-top: 40px;
+    color: black;
+}
+.boite_entreeMessage input{
+    width: 100%;
+    height:60px;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size: 25px;
+    padding-top: 40px;
+    color: black;
+    margin-top: -20px;
+}
+     
+footer{
+    background-color: white;
+    width: 320px;
+    height:350px;
+    margin-top: 1400px;
+    margin-left: -8px;
+    margin-bottom: -10px;
+}
+}
+
+@media screen and (width:540px){
+    header{
+        height:50vh;
+        width:100vw;   
+    }
+
+    .navbar{
+        padding:0;
+        width:200%;
+     
+    }
+    .navbar a{
+        color:#22427c;
+        transition: 0.2s opacity ease-in;
+        font-size: 30px;
+        
+      
+    }
+    .navbar .logo{
+        position:absolute;
+        top:50px;
+        left:-30px;
+        width:200px;
+        height: fit-content;
+        box-shadow: 1px 15px yellow ;
+
+    }
+    .navbar .menu-hamburger{
+        display: block;
+        width:60px;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: white;
+        top:-10px;
+        left:0;
+        width:100%;
+        height:80vh;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        backdrop-filter: blur(5px);
+        margin-left: -100%;
+        transition: all 0.5s ease;   
+    }
+    .navbar{
+        position:absolute;
+        padding:30px;
+        display:flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+        border-bottom: 20px solid rgb(234, 1, 1);
+        background-color:hsla(244, 100%, 56%, 0.987);
+        box-shadow: 1px 20px yellow;
+        height: 200px;
+        width: 1200px; 
+        margin-left: -8px;
+        margin-top: -10px;
+    
+    
+    }
+    .nav-links.mobile-menu{
+        margin-left: 10px;
+       
+    }
+    
+    .nav-links ul{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        filter: contrast(300%);
+        }
+        .navbar .nav-links ul li {
+            margin:  25px;
+            font-size: 1.8em;
+            }
+
+         
+h1{
+    font-size: 70px;
+    font-family: osvald;
+    filter: contrast(300%);
+    color:  white;
+    text-decoration:none;   
+ 
+}
+
+.box_h1{
+    background-color: #22427c;
+    width:230px;
+    height:fit-content;
+    filter: contrast(300%);
+    margin-top: -2090px;
+    margin-left: 100px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+h2{
+    font-size: 50px;
+    font-family: osvald;
+    filter: contrast(300%);
+    margin-top: 1px;
+    margin-left: 100px;
+    background-color: yellow;
+    width: 1000px;
+    height: fit-content;
+    padding-left: 58px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color:#22427c;
+    
+
+}
+.DGM_h2{
+    margin-left: -40px;
+}
+h3{
+
+    font-size: 95px;
+
+    
+
+}
+h3::before
+{
+    content: attr(data-text);
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 100px;
+    left:0;
+    width:0;
+    height:50%;
+    color:white;
+    -webkit-text-stroke: 0vh rgb(222, 208, 216);
+    border-right: 0px  solid rgb(222, 208, 216);
+    overflow: hidden;
+    animation: animate 1s linear infinite;
+   
+}
+@keyframes animate{
+    0%{
+      width:0;
+    }
+    70%{
+        width:120%;
+      }
+  }
+
+  footer{
+    background-color: white;
+    width:1200px;
+    height:350px;
+    margin-top: 1300px;
+    margin-left: -8px;
+    margin-bottom: -10px;
+}
+   
+.fond_contact{
+    background-color: white;
+    width:949px;
+    height:850px;
+    margin-left: 100px;
+    margin-top: 1400px;
+    border-radius: 10px;
+    
+}
+
+.boite_entreeMail input{
+    width: 100%;
+    height:70px;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size: 35px;
+    padding-top: 40px;
+    color: black;
+}
+.boite_entreeMessage input{
+    width: 100%;
+    height:70px;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size: 35px;
+    padding-top: 40px;
+    color: black;
+    margin-top: -20px;
+}
+
+
+.adresse p{
+    font-size: 55px;
+    margin-top: 300px;
+    margin-left: 100px;
+    color:rgb(202, 208, 23);
+}
+
+.immeuble p{
+    font-size: 30px;
+    margin-top: -30px;
+    margin-left: 100px;
+    color:white;
+}
+.appel p{
+    font-size: 55px;
+    margin-top: 20px;
+    margin-left: 100px;
+    color:rgb(202, 208, 23);
+}
+
+.numero p{
+    font-size: 30px;
+    margin-top: -30px;
+    margin-left: 100px;
+    color:white;
+}
+.email p{
+    font-size: 55px;
+    margin-top: 20px;
+    margin-left: 100px;
+    color:rgb(202, 208, 23);
+}
+
+.adresse_mail p{
+    font-size: 30px;
+    margin-top: -30px;
+    margin-left: 100px;
+    color:white;
+}
+
+button{
+    width:50%;
+    height:50px;
+    background-color: rgba(172, 147, 23, 0.718);
+    border:none;
+    outline:none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 35px;
+    color:rgb(255, 255, 255);
+    font-weight: 900;
+    margin-top: 100px;
+    margin-left: 250px;
+   
+}
+}
+
+@media screen and (width:912px){
+    header{
+        height:50vh;
+        width:100vw;   
+    }
+
+    .navbar{
+        padding:0;
+        width:200%;
+     
+    }
+    .navbar a{
+        color:#22427c;
+        transition: 0.2s opacity ease-in;
+        font-size: 30px;
+        
+      
+    }
+    .navbar .logo{
+        position:absolute;
+        top:50px;
+        left:-30px;
+        width:200px;
+        height: fit-content;
+        box-shadow: 1px 15px yellow ;
+
+    }
+    .navbar .menu-hamburger{
+        display: block;
+        width:60px;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: white;
+        top:-10px;
+        left:0;
+        width:100%;
+        height:50vh;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        backdrop-filter: blur(5px);
+        margin-left: -100%;
+        transition: all 0.5s ease;   
+    }
+    .navbar{
+        position:absolute;
+        padding:30px;
+        display:flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+        border-bottom: 20px solid rgb(234, 1, 1);
+        background-color:hsla(244, 100%, 56%, 0.987);
+        box-shadow: 1px 20px yellow;
+        height: 200px;
+        width: 950px; 
+        margin-left: -8px;
+        margin-top: -10px;
+    
+    
+    }
+    .nav-links.mobile-menu{
+        margin-left: 10px;
+       
+    }
+    
+    .nav-links ul{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        filter: contrast(300%);
+        }
+        .navbar .nav-links ul li {
+            margin:  25px;
+            font-size: 1.8em;
+            }
+         
+
+h1{
+    font-size: 60px;
+    font-family: osvald;
+    filter: contrast(300%);
+    color:  white;
+    text-decoration:none;   
+ 
+}
+
+.box_h1{
+    background-color: #22427c;
+    width:200px;
+    height:fit-content;
+    filter: contrast(300%);
+    margin-top: -2090px;
+    margin-left: 30px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+h2{
+    font-size: 40px;
+    font-family: osvald;
+    filter: contrast(300%);
+    margin-top: 1px;
+    margin-left: 30px;
+    background-color: yellow;
+    width: 820px;
+    height: fit-content;
+    padding-left: 58px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color:#22427c;
+    
+
+}
+.DGM_h2{
+    margin-left: -40px;
+}
+h3{
+
+    font-size: 95px;
+
+    
+
+}
+h3::before
+{
+    content: attr(data-text);
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 100px;
+    left:0;
+    width:0;
+    height:50%;
+    color:white;
+    -webkit-text-stroke: 0vh rgb(222, 208, 216);
+    border-right: 0px  solid rgb(222, 208, 216);
+    overflow: hidden;
+    animation: animate 1s linear infinite;
+   
+}
+@keyframes animate{
+    0%{
+      width:0;
+    }
+    70%{
+        width:120%;
+      }
+  }
+
+  footer{
+    background-color: white;
+    width:950px;
+    height:350px;
+    margin-top: 1300px;
+    margin-left: -8px;
+    margin-bottom: -10px;
+}
+
+.adresse p{
+    font-size: 55px;
+    margin-top: 300px;
+    margin-left: 100px;
+    color:rgb(202, 208, 23);
+}
+
+.immeuble p{
+    font-size: 30px;
+    margin-top: -30px;
+    margin-left: 100px;
+    color:white;
+}
+.appel p{
+    font-size: 55px;
+    margin-top: 20px;
+    margin-left: 100px;
+    color:rgb(202, 208, 23);
+}
+
+.numero p{
+    font-size: 30px;
+    margin-top: -30px;
+    margin-left: 100px;
+    color:white;
+}
+.email p{
+    font-size: 55px;
+    margin-top: 20px;
+    margin-left: 100px;
+    color:rgb(202, 208, 23);
+}
+
+.adresse_mail p{
+    font-size: 30px;
+    margin-top: -30px;
+    margin-left: 100px;
+    color:white;
+}
+
+
+.fond_contact{
+    background-color: white;
+    width: 855px;
+    height:850px;
+    margin-left: 10px;
+    margin-top: 1400px;
+    border-radius: 10px;
+    
+}
+
+.boite_entreeNom{
+    width:710px;
+    margin:30px 0;
+    border-bottom: 1px solid black;
+    margin-left: 125px;
+    
+
+   
+
+}
+.boite_entreePrenom{
+    width:710px;
+    margin:30px 0;
+    border-bottom: 1px solid black;
+    margin-left: 125px;
+    margin-top: 100px;
+
+}
+
+.boite_entreeNom img{
+
+    width: 40px;
+    height: 30px;
+    margin-left: 670px;
+    padding-top: -0px;
+    background-color: rgba(172, 147, 23, 0.718);
+    font-size: 1.2rem;
+    margin-top: 40px;
+    margin-bottom: -20px;
+    border-radius: 10px;
+    
+
+}
+.boite_entreePrenom img{
+
+    width: 40px;
+    height: 30px;
+    margin-left: 670px;
+    padding-top: -0px;
+    background-color: rgba(172, 147, 23, 0.718);
+    font-size: 1.2rem;
+    margin-top: 30px;
+    margin-bottom: -20px;
+    border-radius: 10px;
+    
+
+}
+
+.boite_entreeMail{
+    width:710px;
+    margin:30px 0;
+    border-bottom: 1px solid black;
+    margin-left: 125px;
+    margin-top: 100px;
+
+}
+.boite_entreeMail img{
+
+    width: 40px;
+    height: 30px;
+    margin-left: 670px;
+    padding-top: -0px;
+    background-color: rgba(172, 147, 23, 0.718);
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    border-radius: 10px;
+    
+
+}
+.boite_entreeMessage{
+    width:710px;
+    margin:30px 0;
+    border-bottom: 1px solid black;
+    margin-left: 125px;
+    margin-top: 150px;
+}
+.photo_message img{
+    width: 40px;
+    height: 30px;
+    margin-left: 795px;
+    padding-top: -0px;
+    background-color: rgba(172, 147, 23, 0.718);
+    font-size: 1.2rem;
+    margin-bottom: -20px;
+    border-radius: 10px;
+}
+.photo_message{
+    margin-top: -90px;
+}
+
+.boite_entreeNom label{
+    
+    top:50%;
+    left:5px;
+    transform:translateY(-50%);
+    color: black;
+    pointer-events:none;
+    font-size: 35px;
+    position:absolute;
+    margin-top: 1465px;
+    margin-left: 100px;
+    transition: .5s;
+
+}
+
+
+.boite_entreePrenom label{
+    
+    top:50%;
+    left:5px;
+    transform:translateY(-50%);
+    color: black;
+    pointer-events:none;
+    font-size: 35px;
+    position:absolute;
+    margin-top: 1670px;
+    margin-left: 100px;
+    transition: .5s;
+
+}
+
+.boite_entreeMail label{
+    
+    top:50%;
+    left:5px;
+    transform:translateY(-50%);
+    color: black;
+    pointer-events:none;
+    font-size: 35px;
+    position:absolute;
+    margin-top: 1870px;
+    margin-left: 100px;
+    transition: .5s;
+
+}
+
+.boite_entreeMessage label{
+    
+    top:50%;
+    left:5px;
+    transform:translateY(-50%);
+    color: black;
+    pointer-events:none;
+    font-size: 35px;
+    position:absolute;
+    margin-top: 2060px;
+    margin-left: 100px;
+    transition: .5s;
+
+}
+button{
+    width:30%;
+    height:40px;
+    background-color: rgba(172, 147, 23, 0.718);
+    border:none;
+    outline:none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 25px;
+    color:rgb(255, 255, 255);
+    font-weight: 900;
+    margin-top: 100px;
+    margin-left: 330px;
+   
+}
+
+.boite_entreeNom input{
+    width: 100%;
+    height:60px;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size: 35px;
+    padding-top: 30px;
+    color: black;
+}
+
+.boite_entreePrenom input{
+    width: 100%;
+    height:60px;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size: 35px;
+    padding-top: 30px;
+    color: black;
+}
+
+.boite_entreeMail input{
+    width: 100%;
+    height:60px;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size: 35px;
+    padding-top: 40px;
+    color: black;
+}
+.boite_entreeMessage input{
+    width: 100%;
+    height:60px;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size: 35px;
+    padding-top: 40px;
+    color: black;
+    margin-top: -20px;
+}
+}
+
+@media screen and (width:1024px){
+    header{
+        height:50vh;
+        width:100vw;   
+    }
+
+    .navbar{
+        padding:0;
+        width:200%;
+     
+    }
+    .navbar a{
+        color:#22427c;
+        transition: 0.2s opacity ease-in;
+        font-size: 36px;
+        
+      
+    }
+    .navbar .logo{
+        position:absolute;
+        top:50px;
+        left:-30px;
+        width:200px;
+        height: fit-content;
+        box-shadow: 1px 15px yellow ;
+
+    }
+    .navbar .menu-hamburger{
+        display: block;
+        width:60px;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: white;
+        top:-10px;
+        left:0;
+        width:100%;
+        height:50vh;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        backdrop-filter: blur(5px);
+        margin-left: -100%;
+        transition: all 0.5s ease;   
+    }
+    .navbar{
+        position:absolute;
+        padding:30px;
+        display:flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+        border-bottom: 20px solid rgb(234, 1, 1);
+        background-color:hsla(244, 100%, 56%, 0.987);
+        box-shadow: 1px 20px yellow;
+        height: 200px;
+        width: 1030px; 
+        margin-left: -8px;
+        margin-top: -10px;
+    
+    
+    }
+    .nav-links.mobile-menu{
+        margin-left: 10px;
+       
+    }
+    
+    .nav-links ul{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        filter: contrast(300%);
+        }
+        .navbar .nav-links ul li {
+            margin:  25px;
+            font-size: 1.8em;
+            }
+         
+h1{
+    font-size: 60px;
+    font-family: osvald;
+    filter: contrast(300%);
+    color:  white;
+    text-decoration:none;   
+ 
+}
+
+.box_h1{
+    background-color: #22427c;
+    width:200px;
+    height:fit-content;
+    filter: contrast(300%);
+    margin-top: -2090px;
+    margin-left: 30px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+h2{
+    font-size: 40px;
+    font-family: osvald;
+    filter: contrast(300%);
+    margin-top: 1px;
+    margin-left: 30px;
+    background-color: yellow;
+    width: 820px;
+    height: fit-content;
+    padding-left: 58px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color:#22427c;
+    
+
+}
+.DGM_h2{
+    margin-left: -40px;
+}
+h3{
+
+    font-size: 95px;
+
+    
+
+}
+h3::before
+{
+    content: attr(data-text);
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 100px;
+    left:0;
+    width:0;
+    height:50%;
+    color:white;
+    -webkit-text-stroke: 0vh rgb(222, 208, 216);
+    border-right: 0px  solid rgb(222, 208, 216);
+    overflow: hidden;
+    animation: animate 1s linear infinite;
+   
+}
+@keyframes animate{
+    0%{
+      width:0;
+    }
+    70%{
+        width:120%;
+      }
+  }
+
+  footer{
+    background-color: white;
+    width:1030px;
+    height:350px;
+    margin-top: 1300px;
+    margin-left: -8px;
+    margin-bottom: -10px;
+}
+
+.adresse p{
+    font-size: 65px;
+    margin-top: 300px;
+    margin-left: 100px;
+    color:rgb(202, 208, 23);
+}
+
+.immeuble p{
+    font-size: 35px;
+    margin-top: -30px;
+    margin-left: 100px;
+    color:white;
+}
+.appel p{
+    font-size: 65px;
+    margin-top: 20px;
+    margin-left: 100px;
+    color:rgb(202, 208, 23);
+}
+
+.numero p{
+    font-size: 35px;
+    margin-top: -30px;
+    margin-left: 100px;
+    color:white;
+}
+.email p{
+    font-size: 65px;
+    margin-top: 20px;
+    margin-left: 100px;
+    color:rgb(202, 208, 23);
+}
+
+.adresse_mail p{
+    font-size: 35px;
+    margin-top: -30px;
+    margin-left: 100px;
+    color:white;
+}
+
+
+.fond_contact{
+    background-color: white;
+    width: 855px;
+    height:850px;
+    margin-left: 100px;
+    margin-top: 1400px;
+    border-radius: 10px;
+    
+}
+
+.boite_entreeNom{
+    width:710px;
+    margin:30px 0;
+    border-bottom: 1px solid black;
+    margin-left: 125px;
+    
+
+   
+
+}
+.boite_entreePrenom{
+    width:710px;
+    margin:30px 0;
+    border-bottom: 1px solid black;
+    margin-left: 125px;
+    margin-top: 100px;
+
+}
+
+.boite_entreeNom img{
+
+    width: 40px;
+    height: 30px;
+    margin-left: 670px;
+    padding-top: -0px;
+    background-color: rgba(172, 147, 23, 0.718);
+    font-size: 1.2rem;
+    margin-top: 40px;
+    margin-bottom: -20px;
+    border-radius: 10px;
+    
+
+}
+.boite_entreePrenom img{
+
+    width: 40px;
+    height: 30px;
+    margin-left: 670px;
+    padding-top: -0px;
+    background-color: rgba(172, 147, 23, 0.718);
+    font-size: 1.2rem;
+    margin-top: 30px;
+    margin-bottom: -20px;
+    border-radius: 10px;
+    
+
+}
+
+.boite_entreeMail{
+    width:710px;
+    margin:30px 0;
+    border-bottom: 1px solid black;
+    margin-left: 125px;
+    margin-top: 100px;
+
+}
+.boite_entreeMail img{
+
+    width: 40px;
+    height: 30px;
+    margin-left: 670px;
+    padding-top: -0px;
+    background-color: rgba(172, 147, 23, 0.718);
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    border-radius: 10px;
+    
+
+}
+.boite_entreeMessage{
+    width:710px;
+    margin:30px 0;
+    border-bottom: 1px solid black;
+    margin-left: 125px;
+    margin-top: 150px;
+}
+.photo_message img{
+    width: 40px;
+    height: 30px;
+    margin-left: 795px;
+    padding-top: -0px;
+    background-color: rgba(172, 147, 23, 0.718);
+    font-size: 1.2rem;
+    margin-bottom: -20px;
+    border-radius: 10px;
+}
+.photo_message{
+    margin-top: -90px;
+}
+
+.boite_entreeNom label{
+    
+    top:50%;
+    left:5px;
+    transform:translateY(-50%);
+    color: black;
+    pointer-events:none;
+    font-size: 45px;
+    position:absolute;
+    margin-top: 1465px;
+    margin-left: 170px;
+    transition: .5s;
+
+}
+
+
+.boite_entreePrenom label{
+    
+    top:50%;
+    left:5px;
+    transform:translateY(-50%);
+    color: black;
+    pointer-events:none;
+    font-size: 45px;
+    position:absolute;
+    margin-top: 1670px;
+    margin-left: 170px;
+    transition: .5s;
+
+}
+
+.boite_entreeMail label{
+    
+    top:50%;
+    left:5px;
+    transform:translateY(-50%);
+    color: black;
+    pointer-events:none;
+    font-size: 45px;
+    position:absolute;
+    margin-top: 1870px;
+    margin-left: 170px;
+    transition: .5s;
+
+}
+
+.boite_entreeMessage label{
+    
+    top:50%;
+    left:5px;
+    transform:translateY(-50%);
+    color: black;
+    pointer-events:none;
+    font-size: 45px;
+    position:absolute;
+    margin-top: 2060px;
+    margin-left: 170px;
+    transition: .5s;
+
+}
+button{
+    width:50%;
+    height:50px;
+    background-color: rgba(172, 147, 23, 0.718);
+    border:none;
+    outline:none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 35px;
+    color:rgb(255, 255, 255);
+    font-weight: 900;
+    margin-top: 100px;
+    margin-left: 230px;
+   
+}
+
+.boite_entreeNom input{
+    width: 100%;
+    height:60px;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size: 35px;
+    padding-top: 30px;
+    color: black;
+}
+
+.boite_entreePrenom input{
+    width: 100%;
+    height:60px;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size: 35px;
+    padding-top: 30px;
+    color: black;
+}
+
+.boite_entreeMail input{
+    width: 100%;
+    height:70px;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size: 35px;
+    padding-top: 40px;
+    color: black;
+}
+.boite_entreeMessage input{
+    width: 100%;
+    height:70px;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size: 35px;
+    padding-top: 40px;
+    color: black;
+    margin-top: -20px;
+}
+}
+
+@media screen and (width:820px){
+    header{
+        height:50vh;
+        width:100vw;   
+    }
+
+    .navbar{
+        padding:0;
+        width:200%;
+     
+    }
+    .navbar a{
+        color:#22427c;
+        transition: 0.2s opacity ease-in;
+        font-size: 30px;
+        
+      
+    }
+    .navbar .logo{
+        position:absolute;
+        top:50px;
+        left:-30px;
+        width:200px;
+        height: fit-content;
+        box-shadow: 1px 5px yellow ;
+
+    }
+    .navbar .menu-hamburger{
+        display: block;
+        width:60px;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: white;
+        top:-10px;
+        left:0;
+        width:100%;
+        height:50vh;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        backdrop-filter: blur(5px);
+        margin-left: -100%;
+        transition: all 0.5s ease;   
+    }
+    .navbar{
+        position:absolute;
+        padding:30px;
+        display:flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+        border-bottom: 10px solid rgb(234, 1, 1);
+        background-color:hsla(244, 100%, 56%, 0.987);
+        box-shadow: 1px 10px yellow;
+        height: 200px;
+        width: 840px; 
+        margin-left: -8px;
+        margin-top: -10px;
+    
+    
+    }
+    .nav-links.mobile-menu{
+        margin-left: 10px;
+       
+    }
+    
+    .nav-links ul{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        filter: contrast(300%);
+        }
+        .navbar .nav-links ul li {
+            margin:  25px;
+            font-size: 1.8em;
+            }
+       
+            h1{
+                font-size: 30px;
+                font-family: osvald;
+                filter: contrast(300%);
+                color:  white;
+                text-decoration:none;   
+             
+            }
+            
+            .box_h1{
+                background-color: #22427c;
+                width: 130px;
+                height:fit-content;
+                filter: contrast(300%);
+                margin-top: -1890px;
+                margin-left: 30px;
+                padding-left: 25px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                
+            }
+            h2{
+                font-size: 35px;
+                font-family: osvald;
+                filter: contrast(300%);
+                margin-top: 1px;
+                margin-left: 30px;
+                background-color: yellow;
+                width: 710px;
+                height: fit-content;
+                padding-left: 58px;
+                padding-top: 40px;
+                padding-bottom: 40px;
+                color:#22427c;
+                
+            
+            }
+            .DGM_h2{
+                margin-left: -40px;
+            }
+            h3{
+            
+                font-size: 75px;
+            
+                
+            
+            }
+            h3::before
+            {
+                content: attr(data-text);
+                position: absolute;
+                margin-top: -80px;
+                margin-left: 100px;
+                left:0;
+                width:0;
+                height:50%;
+                color:white;
+                -webkit-text-stroke: 0vh rgb(222, 208, 216);
+                border-right: 0px  solid rgb(222, 208, 216);
+                overflow: hidden;
+                animation: animate 1s linear infinite;
+               
+            }
+            @keyframes animate{
+                0%{
+                  width:0;
+                }
+                70%{
+                    width:120%;
+                  }
+              }
+            
+              
+            .adresse p{
+                font-size: 55px;
+                margin-top: 300px;
+                margin-left: 100px;
+                color:rgb(202, 208, 23);
+            }
+            
+            .immeuble p{
+                font-size: 30px;
+                margin-top: -30px;
+                margin-left: 100px;
+                color:white;
+            }
+            .appel p{
+                font-size: 55px;
+                margin-top: 20px;
+                margin-left: 100px;
+                color:rgb(202, 208, 23);
+            }
+            
+            .numero p{
+                font-size: 30px;
+                margin-top: -30px;
+                margin-left: 100px;
+                color:white;
+            }
+            .email p{
+                font-size: 55px;
+                margin-top: 20px;
+                margin-left: 100px;
+                color:rgb(202, 208, 23);
+            }
+            
+            .adresse_mail p{
+                font-size: 30px;
+                margin-top: -30px;
+                margin-left: 100px;
+                color:white;
+            }
+            
+                
+            .fond_contact{
+                background-color: white;
+                width:750px;
+                height:850px;
+                margin-left: 20px;
+                margin-top: 1000px;
+                border-radius: 10px;
+                
+            }
+            
+            .boite_entreeNom{
+                width:580px;
+                margin:30px 0;
+                border-bottom: 1px solid black;
+                margin-left: 125px;
+                
+            
+               
+            
+            }
+            .boite_entreePrenom{
+                width:580px;
+                margin:30px 0;
+                border-bottom: 1px solid black;
+                margin-left: 125px;
+                margin-top: 100px;
+            
+            }
+            
+            .boite_entreeNom img{
+            
+                width: 70px;
+                height: 60px;
+                margin-left: 530px;
+                padding-top: -0px;
+                background-color: rgba(172, 147, 23, 0.718);
+                font-size: 1.2rem;
+                margin-top: 40px;
+                margin-bottom: -20px;
+                border-radius: 10px;
+                
+            
+            }
+            .boite_entreePrenom img{
+            
+                width: 70px;
+                height: 60px;
+                margin-left: 530px;
+                padding-top: -0px;
+                background-color: rgba(172, 147, 23, 0.718);
+                font-size: 1.2rem;
+                margin-top: 30px;
+                margin-bottom: -20px;
+                border-radius: 10px;
+                
+            
+            }
+            
+            .boite_entreeMail{
+                width:580px;
+                margin:30px 0;
+                border-bottom: 1px solid black;
+                margin-left: 125px;
+                margin-top: 100px;
+            
+            }
+            .boite_entreeMail img{
+            
+                width: 70px;
+                height: 60px;
+                margin-left: 530px;
+                padding-top: -0px;
+                background-color: rgba(172, 147, 23, 0.718);
+                font-size: 1.2rem;
+                margin-top: -40px;
+                margin-bottom: -20px;
+                border-radius: 10px;
+                
+            
+            }
+            .boite_entreeMessage{
+                width:580px;
+                margin:30px 0;
+                border-bottom: 1px solid black;
+                margin-left: 125px;
+                margin-top: 150px;
+            }
+            .photo_message img{
+                width: 70px;
+                height: 60px;
+                margin-left: 655px;
+                padding-top: -0px;
+                background-color: rgba(172, 147, 23, 0.718);
+                font-size: 1.2rem;
+                margin-bottom: -20px;
+                border-radius: 10px;
+            }
+            .photo_message{
+                margin-top: -140px;
+            }
+            
+            .boite_entreeNom label{
+                
+                top:50%;
+                left:5px;
+                transform:translateY(-50%);
+                color: black;
+                pointer-events:none;
+                font-size: 35px;
+                position:absolute;
+                margin-top: 1065px;
+                margin-left: 100px;
+                transition: .5s;
+            
+            }
+            
+            
+            .boite_entreePrenom label{
+                
+                top:50%;
+                left:5px;
+                transform:translateY(-50%);
+                color: black;
+                pointer-events:none;
+                font-size: 35px;
+                position:absolute;
+                margin-top: 1270px;
+                margin-left: 100px;
+                transition: .5s;
+            
+            }
+            
+            .boite_entreeMail label{
+                
+                top:50%;
+                left:5px;
+                transform:translateY(-50%);
+                color: black;
+                pointer-events:none;
+                font-size: 35px;
+                position:absolute;
+                margin-top: 1470px;
+                margin-left: 100px;
+                transition: .5s;
+            
+            }
+            
+            .boite_entreeMessage label{
+                
+                top:50%;
+                left:5px;
+                transform:translateY(-50%);
+                color: black;
+                pointer-events:none;
+                font-size: 35px;
+                position:absolute;
+                margin-top: 1620px;
+                margin-left: 100px;
+                transition: .5s;
+            
+            }
+            button{
+                width:50%;
+                height:50px;
+                background-color: rgba(172, 147, 23, 0.718);
+                border:none;
+                outline:none;
+                border-radius: 40px;
+                cursor: pointer;
+                font-size: 35px;
+                color:rgb(255, 255, 255);
+                font-weight: 900;
+                margin-top: 100px;
+                margin-left: 210px;
+               
+            }
+            
+            .boite_entreeNom input{
+                width: 100%;
+                height:60px;
+                background: transparent;
+                border:none;
+                outline:none;
+                font-size: 35px;
+                padding-top: 30px;
+                color: black;
+            }
+            
+            .boite_entreePrenom input{
+                width: 100%;
+                height:60px;
+                background: transparent;
+                border:none;
+                outline:none;
+                font-size: 35px;
+                padding-top: 30px;
+                color: black;
+            }
+            
+            .boite_entreeMail input{
+                width: 100%;
+                height:70px;
+                background: transparent;
+                border:none;
+                outline:none;
+                font-size: 35px;
+                padding-top: 40px;
+                color: black;
+                margin-top: -20px;
+            }
+            .boite_entreeMessage input{
+                width: 100%;
+                height:70px;
+                background: transparent;
+                border:none;
+                outline:none;
+                font-size: 35px;
+                padding-top: 40px;
+                color: black;
+                margin-top: -110px;
+            }
+
+            footer{
+                background-color: white;
+                width: 840px;
+                height:350px;
+                margin-top: 1300px;
+                margin-left: -8px;
+                margin-bottom: -10px;
+            }
+}
+@media screen  and (width:768px){
+    header{
+        height:50vh;
+        width:100vw;   
+    }
+
+    .navbar{
+        padding:0;
+        width:200%;
+     
+    }
+    .navbar a{
+        color:#22427c;
+        transition: 0.2s opacity ease-in;
+        font-size: 30px;
+        
+      
+    }
+    .navbar .logo{
+        position:absolute;
+        top:50px;
+        left:-30px;
+        width:200px;
+        height: fit-content;
+        box-shadow: 1px 5px yellow ;
+
+    }
+    .navbar .menu-hamburger{
+        display: block;
+        width:60px;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: white;
+        top:-10px;
+        left:0;
+        width:100%;
+        height:50vh;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        backdrop-filter: blur(5px);
+        margin-left: -100%;
+        transition: all 0.5s ease;   
+    }
+    .navbar{
+        position:absolute;
+        padding:30px;
+        display:flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+        border-bottom: 10px solid rgb(234, 1, 1);
+        background-color:hsla(244, 100%, 56%, 0.987);
+        box-shadow: 1px 10px yellow;
+        height: 200px;
+        width: 800px; 
+        margin-left: -8px;
+        margin-top: -10px;
+    
+    
+    }
+    .nav-links.mobile-menu{
+        margin-left: 10px;
+       
+    }
+    
+    .nav-links ul{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        filter: contrast(300%);
+        }
+        .navbar .nav-links ul li {
+            margin:  25px;
+            font-size: 1.8em;
+            }
+
+            
+            
+h1{
+    font-size: 30px;
+    font-family: osvald;
+    filter: contrast(300%);
+    color:  white;
+    text-decoration:none;   
+ 
+}
+
+.box_h1{
+    background-color: #22427c;
+    width: 130px;
+    height:fit-content;
+    filter: contrast(300%);
+    margin-top: -1890px;
+    margin-left: 30px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+h2{
+    font-size: 35px;
+    font-family: osvald;
+    filter: contrast(300%);
+    margin-top: 1px;
+    margin-left: 30px;
+    background-color: yellow;
+    width: 710px;
+    height: fit-content;
+    padding-left: 58px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color:#22427c;
+    
+
+}
+.DGM_h2{
+    margin-left: -40px;
+}
+h3{
+
+    font-size: 75px;
+
+    
+
+}
+h3::before
+{
+    content: attr(data-text);
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 100px;
+    left:0;
+    width:0;
+    height:50%;
+    color:white;
+    -webkit-text-stroke: 0vh rgb(222, 208, 216);
+    border-right: 0px  solid rgb(222, 208, 216);
+    overflow: hidden;
+    animation: animate 1s linear infinite;
+   
+}
+@keyframes animate{
+    0%{
+      width:0;
+    }
+    70%{
+        width:120%;
+      }
+  }
+
+  
+.adresse p{
+    font-size: 55px;
+    margin-top: 300px;
+    margin-left: 100px;
+    color:rgb(202, 208, 23);
+}
+
+.immeuble p{
+    font-size: 30px;
+    margin-top: -30px;
+    margin-left: 100px;
+    color:white;
+}
+.appel p{
+    font-size: 55px;
+    margin-top: 20px;
+    margin-left: 100px;
+    color:rgb(202, 208, 23);
+}
+
+.numero p{
+    font-size: 30px;
+    margin-top: -30px;
+    margin-left: 100px;
+    color:white;
+}
+.email p{
+    font-size: 55px;
+    margin-top: 20px;
+    margin-left: 100px;
+    color:rgb(202, 208, 23);
+}
+
+.adresse_mail p{
+    font-size: 30px;
+    margin-top: -30px;
+    margin-left: 100px;
+    color:white;
+}
+
+    
+.fond_contact{
+    background-color: white;
+    width:720px;
+    height:850px;
+    margin-left: 20px;
+    margin-top: 1000px;
+    border-radius: 10px;
+    
+}
+
+.boite_entreeNom{
+    width:580px;
+    margin:30px 0;
+    border-bottom: 1px solid black;
+    margin-left: 125px;
+    
+
+   
+
+}
+.boite_entreePrenom{
+    width:580px;
+    margin:30px 0;
+    border-bottom: 1px solid black;
+    margin-left: 125px;
+    margin-top: 100px;
+
+}
+
+.boite_entreeNom img{
+
+    width: 70px;
+    height: 60px;
+    margin-left: 500px;
+    padding-top: -0px;
+    background-color: rgba(172, 147, 23, 0.718);
+    font-size: 1.2rem;
+    margin-top: 40px;
+    margin-bottom: -20px;
+    border-radius: 10px;
+    
+
+}
+.boite_entreePrenom img{
+
+    width: 70px;
+    height: 60px;
+    margin-left: 500px;
+    padding-top: -0px;
+    background-color: rgba(172, 147, 23, 0.718);
+    font-size: 1.2rem;
+    margin-top: 30px;
+    margin-bottom: -20px;
+    border-radius: 10px;
+    
+
+}
+
+.boite_entreeMail{
+    width:580px;
+    margin:30px 0;
+    border-bottom: 1px solid black;
+    margin-left: 125px;
+    margin-top: 100px;
+
+}
+.boite_entreeMail img{
+
+    width: 70px;
+    height: 60px;
+    margin-left: 500px;
+    padding-top: -0px;
+    background-color: rgba(172, 147, 23, 0.718);
+    font-size: 1.2rem;
+    margin-top: -40px;
+    margin-bottom: -20px;
+    border-radius: 10px;
+    
+
+}
+.boite_entreeMessage{
+    width:580px;
+    margin:30px 0;
+    border-bottom: 1px solid black;
+    margin-left: 125px;
+    margin-top: 150px;
+}
+.photo_message img{
+    width: 70px;
+    height: 60px;
+    margin-left: 625px;
+    padding-top: -0px;
+    background-color: rgba(172, 147, 23, 0.718);
+    font-size: 1.2rem;
+    margin-bottom: -20px;
+    border-radius: 10px;
+}
+.photo_message{
+    margin-top: -140px;
+}
+
+.boite_entreeNom label{
+    
+    top:50%;
+    left:5px;
+    transform:translateY(-50%);
+    color: black;
+    pointer-events:none;
+    font-size: 35px;
+    position:absolute;
+    margin-top: 1065px;
+    margin-left: 100px;
+    transition: .5s;
+
+}
+
+
+.boite_entreePrenom label{
+    
+    top:50%;
+    left:5px;
+    transform:translateY(-50%);
+    color: black;
+    pointer-events:none;
+    font-size: 35px;
+    position:absolute;
+    margin-top: 1270px;
+    margin-left: 100px;
+    transition: .5s;
+
+}
+
+.boite_entreeMail label{
+    
+    top:50%;
+    left:5px;
+    transform:translateY(-50%);
+    color: black;
+    pointer-events:none;
+    font-size: 35px;
+    position:absolute;
+    margin-top: 1470px;
+    margin-left: 100px;
+    transition: .5s;
+
+}
+
+.boite_entreeMessage label{
+    
+    top:50%;
+    left:5px;
+    transform:translateY(-50%);
+    color: black;
+    pointer-events:none;
+    font-size: 35px;
+    position:absolute;
+    margin-top: 1620px;
+    margin-left: 100px;
+    transition: .5s;
+
+}
+button{
+    width:50%;
+    height:50px;
+    background-color: rgba(172, 147, 23, 0.718);
+    border:none;
+    outline:none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 35px;
+    color:rgb(255, 255, 255);
+    font-weight: 900;
+    margin-top: 100px;
+    margin-left: 210px;
+   
+}
+
+.boite_entreeNom input{
+    width: 100%;
+    height:60px;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size: 35px;
+    padding-top: 30px;
+    color: black;
+}
+
+.boite_entreePrenom input{
+    width: 100%;
+    height:60px;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size: 35px;
+    padding-top: 30px;
+    color: black;
+}
+
+.boite_entreeMail input{
+    width: 100%;
+    height:70px;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size: 35px;
+    padding-top: 40px;
+    color: black;
+    margin-top: -20px;
+}
+.boite_entreeMessage input{
+    width: 100%;
+    height:70px;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size: 35px;
+    padding-top: 40px;
+    color: black;
+    margin-top: -110px;
+}
+
+footer{
+    background-color: white;
+    width: 800px;
+    height:350px;
+    margin-top: 1300px;
+    margin-left: -8px;
+    margin-bottom: -10px;
+}
+}

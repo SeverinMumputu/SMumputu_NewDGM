@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact_DGM</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <img src="logo_DGM.jpg" alt="" class="logo">
+    
+            <div class="nav-links">
+                <ul>
+            <li class="active"><a href="accueil.html">Accueil</a></li>
+            <li><a href="Mission.html">Mission</a></li>
+            <li><a href="Offre.html">Offres</a></li>
+            <li><a href="Apropos_DGM.html"> À propos</a></li>
+            <li><a href="Services_DGM.html">Services</a></li>
+                </ul>
+            </div>
+            <img src="menu.png" alt="menu" class="menu-hamburger">
+        </nav>
+       </header>
+
+       <div class="fond_contact">
+
+            <form action="">
+    
+        
+               <div class="boite_entreeNom">
+    
+                <img src="utilisateur.png" alt="">
+                     <input type="name" required>
+    
+                  <label><strong>Nom</strong></label>
+    
+               </div> 
+
+               <div class="boite_entreePrenom">
+
+                <img src="utilisateur.png" alt="">
+                <input type="name" required>
+    
+             <label><strong>Prénom</strong></label>
+    
+          </div> 
+
+          <div class="boite_entreeMail">
+
+            <img src="envoyer-un-e-mail.png" alt="">
+             <input type="email" required>
+    
+          <label><strong> Email</strong></label>
+    
+       </div> 
+
+       <div class="boite_entreeMessage">
+
+         <input type="email" required>
+
+      <label><strong> Votre message</strong></label>
+
+   </div> 
+
+        <div class="photo_message">
+             <img src="envoyer-un-e-mail.png" alt="">
+        </div>
+  
+        <button type="submit"><strong>Envoyer</strong></button>
+</form> 
+       </div>
+
+       <div class="background">
+        <div class="box_h1">
+            <h1>DGM</h1>
+
+        </div>
+        <h2><span class="DGM_h2">DIRECTION GENERALE DE MIGRATION</span></h2>
+        <h3 data-text="Nous contacter"> </h3>
+        </div>
+
+        <span class="adresse">
+            <p>
+                Notre Adresse 
+            </p>
+        </span>
+
+            <span class="immeuble">
+                <p>
+                    Immeuble DGMT Boulevard du 30 Juin Kinshasa/Gombe
+                </p>
+            </span>
+
+        <span class="appel">
+            <p>
+                Appel :
+            </p>
+        </span>
+
+        <span class="numero">
+            <p>
+                +243 81 888 44 44
+            </p>
+        </span>
+
+        <span class="email">
+            <p>
+                Email :
+            </p>
+        </span>
+
+        <span class="adresse_mail">
+            <p>
+                info@dgm.cd
+            </p>
+        </span>
+
+
+    <footer>
+
+    </footer>
+
+</body>
+
+<script>
+    const menuHamburger = document.querySelector(".menu-hamburger") 
+    const navLinks = document.querySelector(".nav-links") 
+
+    menuHamburger.addEventListener('click', ()=> {
+     navLinks.classList.toggle('mobile-menu')
+ 
+    })
+   
+ </script>
+</html>
